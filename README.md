@@ -5,7 +5,7 @@ Originally developed for teaching effects in UC Davis's Music 107A: Introduction
 
 Distributed under GPL v3.
 
-
+![screenshot](pdkez_screenshot.jpg)
 
 
 Abstraction names should be relatively self-explanatory.

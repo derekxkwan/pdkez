@@ -9,3 +9,5 @@ Distributed under GPL v3.
 
 
 Abstraction names should be relatively self-explanatory.
+
+dkezfreeverb~ based around Katja Vetter's May 2012 implementation of freeverb with vanilla objects (will tidy up soon)

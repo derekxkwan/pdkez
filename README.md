@@ -1,2 +1,11 @@
 # pdkez
-EZ use (has GUI) Pd vanilla abstractions. Under development for primarily didactic purposes (teaching UC Davis's Music 107A: Introduction to Electronic Music).
+EZ use (has GUI) Pd vanilla abstractions.
+
+Originally developed for teaching effects in UC Davis's Music 107A: Introduction to Electronic Music.
+
+Distributed under GPL v3.
+
+
+
+
+Abstraction names should be relatively self-explanatory.

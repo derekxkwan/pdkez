@@ -1,4 +1,4 @@
-#N canvas 613 226 829 517 12;
+#N canvas 821 462 996 541 12;
 #X obj 105 118 bng 15 250 50 0 empty empty load 17 7 0 15 -262144 -1
 -1;
 #X obj 106 175 openpanel;
@@ -16,6 +16,12 @@
 #X obj 261 227 symbol \$2;
 #X obj 101 361 outlet;
 #X obj 198 360 outlet;
+#X obj 467 87 inlet;
+#X text 522 87 file name;
+#X obj 633 91 inlet;
+#X text 686 92 array1 name;
+#X obj 813 94 inlet;
+#X text 874 95 array2 name;
 #X connect 0 0 1 0;
 #X connect 1 0 4 0;
 #X connect 1 0 10 0;
@@ -28,4 +34,7 @@
 #X connect 11 0 3 0;
 #X connect 12 0 11 0;
 #X connect 13 0 12 2;
+#X connect 16 0 10 0;
+#X connect 18 0 5 1;
+#X connect 20 0 13 1;
 #X coords 0 -1 1 1 200 60 1 100 100;

@@ -1,6 +1,6 @@
 #N canvas 520 197 1817 726 12;
 #X obj 110 187 hsl 128 15 0.01 10 0 0 empty \$0-ezflanger_rate rate
--2 -8 0 12 -262144 -1 -1 1259 1;
+-2 -8 0 12 -262144 -1 -1 9859 1;
 #X floatatom 253 187 5 0 0 0 - - -, f 5;
 #X obj 236 133 tgl 15 0 empty \$0-ezflanger_bypass bypass 17 7 0 12
 -262144 -1 -1 0 1;
@@ -104,7 +104,7 @@
 #X connect 21 1 0 0;
 #X restore 1503 73 pd \$0-ezflanger_defaults;
 #X obj 808 649 pdkez_switcher;
-#X obj 863 122 inlet~;
+#X obj 826 122 inlet~;
 #X obj 699 580 *~ 0;
 #X obj 792 590 +~;
 #X obj 808 674 outlet~;

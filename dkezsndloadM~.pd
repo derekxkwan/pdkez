@@ -1,0 +1,27 @@
+#N canvas 613 226 807 460 12;
+#X obj 105 118 bng 15 250 50 0 empty empty load 17 7 0 15 -262144 -1
+-1;
+#X obj 106 175 openpanel;
+#X obj 287 234 array define \$1;
+#X msg 103 267 read -resize -maxsize 4e+10 \$1 \$2;
+#X obj 103 292 soundfiler;
+#X symbolatom 106 138 23 0 0 0 - - -, f 23;
+#X obj 201 210 symbol \$1;
+#X obj 106 200 t s b;
+#X obj 105 231 pack s s;
+#X text 356 92 derek kwan;
+#X text 361 116 pdkez;
+#X text 359 139 gpl v 3 2017;
+#X obj 101 330 outlet;
+#X obj 184 328 outlet;
+#X connect 0 0 1 0;
+#X connect 1 0 5 0;
+#X connect 1 0 7 0;
+#X connect 3 0 4 0;
+#X connect 4 0 12 0;
+#X connect 4 1 13 0;
+#X connect 6 0 8 1;
+#X connect 7 0 8 0;
+#X connect 7 1 6 0;
+#X connect 8 0 3 0;
+#X coords 0 -1 1 1 200 60 1 100 100;

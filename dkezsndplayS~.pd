@@ -1,11 +1,11 @@
 #N canvas 1069 139 1018 582 12;
-#X obj 115 174 hsl 250 15 0 1 0 0 empty \$0-dkezsndplayM_start start_point
+#X obj 115 174 hsl 250 15 0 1 0 0 empty \$0-dkezsndplayS_start start_point
 -2 -8 0 12 -262144 -1 -1 0 1;
 #X floatatom 193 154 9 0 0 0 - - -, f 9;
-#X obj 114 210 hsl 250 15 0 1 0 0 empty \$0-dkezsndplayM_end end_point
+#X obj 114 210 hsl 250 15 0 1 0 0 empty \$0-dkezsndplayS_end end_point
 -2 -8 0 12 -262144 -1 -1 24900 1;
 #X floatatom 184 191 9 0 0 0 - - -, f 9;
-#X obj 111 251 hsl 250 15 0.25 4 0 0 empty \$0-dkezsndplayM_rate rate
+#X obj 111 251 hsl 250 15 0.25 4 0 0 empty \$0-dkezsndplayS_rate rate
 -2 -8 0 12 -262144 -1 -1 4580 1;
 #X floatatom 152 230 9 0 0 0 - - -, f 9;
 #X obj 193 132 bng 20 250 50 0 empty empty play 22 10 0 15 -262144
@@ -13,7 +13,7 @@
 #X obj 239 233 bng 15 250 50 0 empty empty normal_rate 17 7 0 10 -262144
 -1 -1;
 #X msg 124 290 1;
-#X obj 313 132 tgl 20 0 empty \$0-dkezsndplayM_loop loop 22 10 0 15
+#X obj 313 132 tgl 20 0 empty \$0-dkezsndplayS_loop loop 22 10 0 15
 -262144 -1 -1 0 1;
 #X obj 379 58 inlet;
 #X text 443 58 start;
@@ -27,13 +27,13 @@
 #X text 753 162 loop;
 #X obj 593 310 loadbang;
 #X obj 593 335 f \$0;
-#X obj 131 497 outlet~;
-#X obj 389 109 s \$0-dkezsndplayM_start;
-#X obj 418 208 s \$0-dkezsndplayM_stop;
-#X obj 584 109 s \$0-dkezsndplayM_rate;
-#X obj 669 210 s \$0-dkezsndplayM_loop;
-#X msg 593 360 \; \$1-dkezsndplayM_start 0 \; \$1-dkezsndplayM_end
-1 \; \$1-dkezsndplayM_rate 1 \; \$1-dkezsndplayM_loop 0 \;;
+#X obj 131 518 outlet~;
+#X obj 389 109 s \$0-dkezsndplayS_start;
+#X obj 418 208 s \$0-dkezsndplayS_stop;
+#X obj 584 109 s \$0-dkezsndplayS_rate;
+#X obj 669 210 s \$0-dkezsndplayS_loop;
+#X msg 593 360 \; \$1-dkezsndplayS_start 0 \; \$1-dkezsndplayS_end
+1 \; \$1-dkezsndplayS_rate 1 \; \$1-dkezsndplayS_loop 0 \;;
 #X obj 216 57 inlet;
 #X text 264 57 stop;
 #X obj 254 131 bng 20 250 50 0 empty empty stop 22 10 0 15 -262144
@@ -42,8 +42,10 @@
 #X text 872 112 derek kwan;
 #X text 877 136 pdkez;
 #X text 875 159 gpl v 3 2017;
-#X obj 131 472 tabread4~ \$1;
+#X obj 131 493 tabread4~ \$1;
 #X obj 131 447 pdkez-sndplay_ptr~ \$1, f 38;
+#X obj 258 493 tabread4~ \$2;
+#X obj 258 518 outlet~;
 #X connect 0 0 1 0;
 #X connect 0 0 36 2;
 #X connect 2 0 3 0;
@@ -65,5 +67,7 @@
 #X connect 30 0 36 1;
 #X connect 35 0 22 0;
 #X connect 36 0 35 0;
+#X connect 36 0 37 0;
 #X connect 36 1 31 0;
+#X connect 37 0 38 0;
 #X coords 0 -1 1 1 275 175 1 100 100;

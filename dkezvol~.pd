@@ -1,6 +1,6 @@
-#N canvas 890 304 539 375 12;
+#N canvas 890 304 654 375 12;
 #X obj 109 138 vsl 15 128 0 1 0 0 empty empty empty 0 -9 0 10 -262144
--1 -1 0 1;
+-1 -1 12700 1;
 #X floatatom 105 277 7 0 0 0 - - -, f 7;
 #X text 411 17 derek kwan;
 #X text 416 41 pdkez;
@@ -12,6 +12,8 @@
 #X obj 208 341 outlet~;
 #X obj 318 102 loadbang;
 #X msg 318 127 1;
+#X obj 420 97 inlet;
+#X text 479 93 vol;
 #X connect 0 0 1 0;
 #X connect 0 0 8 0;
 #X connect 5 0 6 0;
@@ -20,4 +22,5 @@
 #X connect 8 0 7 0;
 #X connect 10 0 11 0;
 #X connect 11 0 0 0;
+#X connect 12 0 0 0;
 #X coords 0 -1 1 1 75 200 1 100 100;

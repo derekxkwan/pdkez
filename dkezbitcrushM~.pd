@@ -15,7 +15,7 @@
 #X obj 364 282 t b f;
 #X obj 364 381 /;
 #X obj 110 144 hradio 15 1 0 5 \$0-ezbitcrush_bitres_s \$0-ezbitcrush_bitres_r
-bit_res 0 -8 0 12 -262144 -1 -1 0;
+bit_res 0 -8 0 12 -262144 -1 -1 1011;
 #X text 104 160 16;
 #X text 126 160 8;
 #X text 141 160 4;
@@ -58,8 +58,8 @@ bit_res 0 -8 0 12 -262144 -1 -1 0;
 #X obj 930 274 t b b;
 #X obj 840 427 pack \$0 f f, f 29;
 #X text 992 312 bitres;
-#X msg 840 453 \; \$1-dkbitcrush_bitres_r \$1 \; \$1-dkbitcrush_rate_r
-\$2 \;;
+#X msg 840 453 \; \$1-ezbitcrush_bitres_r \$2 \; \$1-ezbitcrush_rate_r
+\$3 \;;
 #X connect 0 0 1 0;
 #X connect 0 0 4 0;
 #X connect 0 0 12 0;

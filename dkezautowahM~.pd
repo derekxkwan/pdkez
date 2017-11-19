@@ -1,13 +1,13 @@
 #N canvas 616 521 1392 714 12;
 #X obj 111 202 hsl 128 15 1 10 0 0 empty \$0-ezautowah_q q -2 -8 0
-12 -262144 -1 -1 5644 1;
+12 -262144 -1 -1 0 1;
 #X floatatom 254 202 5 0 0 0 - - -, f 5;
 #X obj 237 148 tgl 15 0 empty \$0-ezautowah_bypass bypass 17 7 0 12
 -262144 -1 -1 0 1;
 #X obj 423 629 pdkez_switcher;
 #X obj 478 102 inlet~;
 #X obj 112 173 hsl 128 15 0 1 0 0 empty \$0-ezautowah_range range -2
--8 0 12 -262144 -1 -1 6350 1;
+-8 0 12 -262144 -1 -1 12700 1;
 #X floatatom 255 174 5 0 0 0 - - -, f 5;
 #X obj 769 66 loadbang;
 #X obj 423 654 outlet~;
@@ -40,7 +40,7 @@
 #X text 613 69 range;
 #X text 693 141 q;
 #X obj 199 148 hradio 15 1 0 2 empty \$0-ezautowah_sel bp/hp 0 -8 0
-10 -262144 -1 -1 1;
+10 -262144 -1 -1 5;
 #X obj 769 91 s \$0-ezautowah_sel;
 #X text 851 68 sel;
 #X obj 280 432 delread~ \$0-ezautowah_del 1.5;
@@ -58,8 +58,8 @@
 #X text 991 486 q;
 #X msg 941 536 5;
 #X text 1120 486 sel;
-#X msg 720 627 \; \$1-ezautowah_range \$1 \; \$1-ezautowah_q \$2 \;
-\$1-ezautowah_sel \$3 \;;
+#X msg 720 627 \; \$1-ezautowah_range \$2 \; \$1-ezautowah_q \$3 \;
+\$1-ezautowah_sel \$4 \;;
 #X connect 0 0 1 0;
 #X connect 0 0 17 2;
 #X connect 2 0 3 2;

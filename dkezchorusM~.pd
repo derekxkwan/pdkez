@@ -1,6 +1,6 @@
-#N canvas 1047 486 1392 714 12;
+#N canvas 742 459 1392 714 12;
 #X obj 111 202 hsl 128 15 0.01 5 0 0 empty \$0-ezchorus_rate rate -2
--8 0 12 -262144 -1 -1 0 1;
+-8 0 12 -262144 -1 -1 1247 1;
 #X floatatom 254 202 5 0 0 0 - - -, f 5;
 #X obj 237 148 tgl 15 0 empty \$0-ezchorus_bypass bypass 17 7 0 12
 -262144 -1 -1 0 1;
@@ -41,9 +41,9 @@
 #X obj 1085 296 moses 1e-20;
 #X msg 1085 321 1;
 #X text 1135 271 rate;
-#X msg 865 411 \; \$1-ezchorus_depth \$1 \; \$1-ezchorus_rate \$2 \;
-;
 #X obj 866 211 t b b;
+#X msg 865 411 \; \$1-ezchorus_depth \$2 \; \$1-ezchorus_rate \$3 \;
+;
 #X connect 0 0 1 0;
 #X connect 0 0 24 0;
 #X connect 2 0 3 2;
@@ -65,8 +65,8 @@
 #X connect 26 0 0 0;
 #X connect 27 0 21 0;
 #X connect 28 0 27 0;
-#X connect 29 0 40 0;
-#X connect 30 0 39 0;
+#X connect 29 0 39 0;
+#X connect 30 0 40 0;
 #X connect 31 0 35 0;
 #X connect 33 0 30 1;
 #X connect 34 0 36 0;
@@ -75,7 +75,7 @@
 #X connect 36 0 37 0;
 #X connect 36 1 30 2;
 #X connect 37 0 30 2;
-#X connect 40 0 30 0;
-#X connect 40 1 34 0;
-#X connect 40 1 31 0;
+#X connect 39 0 30 0;
+#X connect 39 1 34 0;
+#X connect 39 1 31 0;
 #X coords 0 -1 1 1 200 125 1 100 100;

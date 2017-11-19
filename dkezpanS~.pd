@@ -12,8 +12,8 @@
 0 12 -262144 -1 -1;
 #X text 791 79 center;
 #X obj 738 108 s \$0-dkezpan_center;
-#X obj 566 134 s \$0-dkezpan_val;
-#X obj 513 113 f \$1;
+#X obj 554 199 s \$0-dkezpan_val;
+#X obj 502 94 f \$1;
 #X text 619 79 pan;
 #X msg 124 67 0;
 #X obj 345 200 inlet~;
@@ -31,13 +31,14 @@
 #X obj 456 411 + 1;
 #X obj 459 379 * -1;
 #X text 82 230 stereo-to-stereo panner;
+#X obj 515 143 clip -1 1;
 #X connect 0 0 4 0;
 #X connect 0 0 25 0;
 #X connect 5 0 12 0;
-#X connect 6 0 11 0;
+#X connect 6 0 30 0;
 #X connect 7 0 10 0;
 #X connect 8 0 14 0;
-#X connect 12 0 11 0;
+#X connect 12 0 30 0;
 #X connect 14 0 0 0;
 #X connect 15 0 21 0;
 #X connect 16 0 22 0;
@@ -52,4 +53,5 @@
 #X connect 26 0 20 0;
 #X connect 27 0 18 0;
 #X connect 28 0 27 0;
+#X connect 30 0 11 0;
 #X coords 0 -1 1 1 200 75 1 100 100;

@@ -20,6 +20,8 @@
 #X obj 242 167 sel 1 0;
 #X msg 368 145 0;
 #X obj 265 68 t b b;
+#X obj 528 91 inlet;
+#X text 579 95 mute;
 #X connect 0 0 1 0;
 #X connect 1 0 8 0;
 #X connect 5 0 6 0;
@@ -36,4 +38,5 @@
 #X connect 17 0 14 0;
 #X connect 18 0 11 0;
 #X connect 18 1 17 0;
+#X connect 19 0 14 0;
 #X coords 0 -1 1 1 75 200 1 100 100;

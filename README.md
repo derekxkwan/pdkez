@@ -10,4 +10,6 @@ Distributed under GPL v3.
 
 Abstraction names should be relatively self-explanatory.
 
+some abstractions need [pdkvabs](https://github.com/derekxkwan/pdkvabs) (whose contents should be flattened into one folder)
+
 dkezfreeverb~ based around Katja Vetter's May 2012 implementation of freeverb with vanilla objects (will tidy up soon)

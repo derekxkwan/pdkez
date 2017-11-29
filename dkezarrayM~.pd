@@ -30,7 +30,7 @@
 #X obj 874 95 inlet;
 #X text 937 97 array size;
 #X obj 187 124 nbx 7 16 1 1e+37 0 0 empty \$0-ezarrayM_ms ms -20 7
-0 15 -262144 -1 -1 1 256;
+0 15 -262144 -1 -1 1000 256;
 #X obj 1039 94 loadbang;
 #X obj 1039 119 f \$2;
 #X obj 1039 144 moses 1e-20, f 18;
@@ -40,7 +40,7 @@
 #X obj 152 466 / 1000;
 #X obj 109 504 /;
 #X obj 189 564 s \$0-ezarrayM_ms;
-#X obj 91 567 outlet;
+#X obj 72 567 outlet;
 #X msg 109 529 set \$1;
 #X obj 98 398 t f b;
 #X connect 0 0 1 0;
@@ -73,9 +73,9 @@
 #X connect 33 0 34 0;
 #X connect 35 0 36 0;
 #X connect 36 0 37 1;
-#X connect 37 0 39 0;
 #X connect 37 0 40 0;
 #X connect 40 0 38 0;
 #X connect 41 0 37 0;
+#X connect 41 0 39 0;
 #X connect 41 1 35 0;
 #X coords 0 -1 1 1 200 70 1 100 100;

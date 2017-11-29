@@ -6,37 +6,37 @@
 -2 -8 0 12 -262144 -1 -1 24900 1;
 #X floatatom 184 191 9 0 0 0 - - -, f 9;
 #X obj 111 251 hsl 250 15 0.25 4 0 0 empty \$0-dkezsndplayM_rate rate
--2 -8 0 12 -262144 -1 -1 4580 1;
+-2 -8 0 12 -262144 -1 -1 4980 1;
 #X floatatom 152 230 9 0 0 0 - - -, f 9;
-#X obj 193 132 bng 20 250 50 0 empty empty play 22 10 0 15 -262144
+#X obj 193 132 bng 20 250 50 0 empty empty play 22 10 0 12 -262144
 -1 -1;
 #X obj 239 233 bng 15 250 50 0 empty empty normal_rate 17 7 0 10 -262144
 -1 -1;
-#X msg 124 290 1;
-#X obj 313 132 tgl 20 0 empty \$0-dkezsndplayM_loop loop 22 10 0 15
+#X msg 77 299 1;
+#X obj 309 130 tgl 20 0 empty \$0-dkezsndplayM_loop loop 22 10 0 12
 -262144 -1 -1 0 1;
-#X obj 379 58 inlet;
-#X text 443 58 start;
+#X obj 511 36 inlet;
+#X text 575 36 start;
 #X obj 112 61 inlet;
 #X text 171 58 trig;
-#X obj 438 160 inlet;
-#X text 502 160 stop;
-#X obj 604 61 inlet;
-#X text 668 61 rate;
-#X obj 689 162 inlet;
-#X text 753 162 loop;
+#X obj 623 145 inlet;
+#X text 687 145 stop;
+#X obj 740 32 inlet;
+#X text 804 32 rate;
+#X obj 426 135 inlet;
+#X text 486 144 loop;
 #X obj 593 310 loadbang;
 #X obj 593 335 f \$0;
 #X obj 131 497 outlet~;
-#X obj 389 109 s \$0-dkezsndplayM_start;
-#X obj 418 208 s \$0-dkezsndplayM_stop;
-#X obj 584 109 s \$0-dkezsndplayM_rate;
-#X obj 669 210 s \$0-dkezsndplayM_loop;
+#X obj 521 95 s \$0-dkezsndplayM_start;
+#X obj 603 193 s \$0-dkezsndplayM_stop;
+#X obj 720 88 s \$0-dkezsndplayM_rate;
+#X obj 406 183 s \$0-dkezsndplayM_loop;
 #X msg 593 360 \; \$1-dkezsndplayM_start 0 \; \$1-dkezsndplayM_end
 1 \; \$1-dkezsndplayM_rate 1 \; \$1-dkezsndplayM_loop 0 \;;
 #X obj 216 57 inlet;
 #X text 264 57 stop;
-#X obj 254 131 bng 20 250 50 0 empty empty stop 22 10 0 15 -262144
+#X obj 252 129 bng 20 250 50 0 empty empty stop 22 10 0 12 -262144
 -1 -1;
 #X floatatom 108 136 9 0 0 2 dur_in_ms - -, f 9;
 #X text 872 112 derek kwan;

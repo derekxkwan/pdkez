@@ -27,7 +27,7 @@
 #X text 486 144 loop;
 #X obj 593 310 loadbang;
 #X obj 593 335 f \$0;
-#X obj 131 497 outlet~;
+#X obj 131 539 outlet~;
 #X obj 521 95 s \$0-dkezsndplayM_start;
 #X obj 603 193 s \$0-dkezsndplayM_stop;
 #X obj 720 88 s \$0-dkezsndplayM_rate;
@@ -44,6 +44,7 @@
 #X text 875 159 gpl v 3 2017;
 #X obj 131 472 tabread4~ \$1;
 #X obj 131 447 pdkez-sndplay_ptr~ \$1, f 38;
+#X obj 131 499 *~, f 14;
 #X connect 0 0 1 0;
 #X connect 0 0 36 2;
 #X connect 2 0 3 0;
@@ -63,7 +64,9 @@
 #X connect 21 0 27 0;
 #X connect 28 0 30 0;
 #X connect 30 0 36 1;
-#X connect 35 0 22 0;
+#X connect 35 0 37 0;
 #X connect 36 0 35 0;
-#X connect 36 1 31 0;
+#X connect 36 1 37 1;
+#X connect 36 2 31 0;
+#X connect 37 0 22 0;
 #X coords 0 -1 1 1 275 175 1 100 100;

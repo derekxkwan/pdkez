@@ -1,4 +1,4 @@
-#N canvas 817 153 1104 1017 12;
+#N canvas 817 153 1107 1196 12;
 #X text 432 302 length in samples;
 #X obj 507 399 samplerate~;
 #X obj 507 424 / 1000;
@@ -28,9 +28,9 @@
 #X obj 439 491 /;
 #X obj 242 17 inlet;
 #X text 299 15 stop;
-#X obj 363 867 outlet;
+#X obj 658 918 outlet;
 #X text 196 948 ptr;
-#X text 425 870 dur in ms;
+#X text 720 921 dur in ms;
 #X obj 341 159 f 1;
 #X obj 347 238 * 1;
 #X obj 578 56 t f b;
@@ -46,6 +46,16 @@
 #X obj 341 193 t f b;
 #X obj 342 55 t b f;
 #X obj 29 122 t b b;
+#X obj 283 873 f;
+#X obj 283 958 del;
+#X msg 392 929 stop;
+#X msg 283 983 0 2;
+#X msg 333 976 1 2;
+#X obj 283 898 t f b b, f 13;
+#X obj 283 1029 line~;
+#X obj 283 1054 outlet~;
+#X obj 283 923 - 2;
+#X text 350 1032 amp envelope;
 #X connect 1 0 2 0;
 #X connect 2 0 26 1;
 #X connect 4 0 9 0;
@@ -53,6 +63,7 @@
 #X connect 8 0 46 0;
 #X connect 9 0 11 0;
 #X connect 9 1 6 0;
+#X connect 9 1 47 0;
 #X connect 11 0 12 0;
 #X connect 12 0 13 0;
 #X connect 14 0 46 0;
@@ -66,6 +77,7 @@
 #X connect 25 1 1 0;
 #X connect 26 0 41 0;
 #X connect 26 0 29 0;
+#X connect 26 0 47 1;
 #X connect 27 0 38 0;
 #X connect 32 0 44 0;
 #X connect 33 0 37 0;
@@ -89,3 +101,13 @@
 #X connect 45 1 35 0;
 #X connect 46 0 36 0;
 #X connect 46 1 32 0;
+#X connect 47 0 52 0;
+#X connect 48 0 50 0;
+#X connect 49 0 48 1;
+#X connect 50 0 53 0;
+#X connect 51 0 53 0;
+#X connect 52 0 55 0;
+#X connect 52 1 51 0;
+#X connect 52 2 49 0;
+#X connect 53 0 54 0;
+#X connect 55 0 48 0;

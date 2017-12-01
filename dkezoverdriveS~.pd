@@ -1,14 +1,14 @@
 #N canvas 754 409 1318 621 12;
-#X obj 114 149 hsl 128 15 1 100 0 0 empty \$0-ezoverdrive_gain gain
--2 -8 0 12 -262144 -1 -1 12700 1;
+#X obj 114 129 hsl 128 15 1 100 0 0 empty \$0-ezoverdrive_gain gain
+-2 -8 0 12 -262144 -1 -1 0 1;
 #X obj 300 538 outlet~;
 #X obj 347 132 inlet~;
 #X text 985 48 derek kwan;
 #X text 990 72 pdkez;
 #X text 988 95 gpl v 3 2017;
-#X floatatom 254 147 5 0 0 0 - - -, f 5;
+#X floatatom 254 127 5 0 0 0 - - -, f 5;
 #X obj 306 472 pdkez_switcher;
-#X obj 235 125 tgl 15 0 empty \$0-ezoverdrive_bypass bypass 17 7 0
+#X obj 235 105 tgl 15 0 empty \$0-ezoverdrive_bypass bypass 17 7 0
 12 -262144 -1 -1 0 1;
 #X obj 541 75 inlet;
 #X text 594 71 gain;
@@ -50,4 +50,4 @@
 #X connect 20 1 22 1;
 #X connect 21 0 22 1;
 #X connect 22 0 26 0;
-#X coords 0 -1 1 1 200 75 1 100 100;
+#X coords 0 -1 1 1 200 50 1 100 100;

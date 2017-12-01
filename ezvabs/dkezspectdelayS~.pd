@@ -54,7 +54,7 @@
 #X obj 724 383 f \$2;
 #X obj 803 437 samplerate~;
 #X obj 803 475 / 1000;
-#X obj 508 294 t b b b b, f 26;
+#X obj 494 295 t b b b b, f 26;
 #X obj 724 408 / 4;
 #X obj 796 515 /;
 #X obj 754 525 /;
@@ -109,6 +109,8 @@
 #X obj 222 681 pdkvabs/dkswitch2~;
 #X obj 222 706 outlet~;
 #X text 12 12 dkezspectdelayS~;
+#X msg 440 368 0;
+#X obj 173 496 == 0;
 #X connect 3 0 22 2;
 #X connect 4 0 7 0;
 #X connect 5 0 16 0;
@@ -128,6 +130,7 @@
 #X connect 15 0 18 1;
 #X connect 15 0 59 1;
 #X connect 16 0 22 0;
+#X connect 16 0 64 0;
 #X connect 16 1 13 0;
 #X connect 16 1 36 0;
 #X connect 16 2 9 0;
@@ -152,6 +155,7 @@
 #X connect 41 0 12 0;
 #X connect 41 0 51 1;
 #X connect 42 0 51 2;
+#X connect 42 0 65 0;
 #X connect 46 0 42 0;
 #X connect 48 0 40 0;
 #X connect 49 0 30 0;
@@ -162,4 +166,7 @@
 #X connect 60 0 59 0;
 #X connect 60 0 61 1;
 #X connect 61 0 62 0;
+#X connect 64 0 42 0;
+#X connect 65 0 12 3;
+#X connect 65 0 59 2;
 #X coords 0 -1 1 1 260 375 1 100 100;

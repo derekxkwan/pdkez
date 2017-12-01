@@ -1,4 +1,4 @@
-#N canvas 817 153 1107 1196 12;
+#N canvas 1320 243 1107 1196 12;
 #X text 432 302 length in samples;
 #X obj 507 399 samplerate~;
 #X obj 507 424 / 1000;
@@ -40,7 +40,7 @@
 #X msg 242 42 stop;
 #X obj 782 65 t b f;
 #X obj 396 434 / 1;
-#X obj 326 600 abs;
+#X obj 362 586 abs;
 #X text 303 247 end;
 #X text 477 242 start;
 #X obj 341 193 t f b;
@@ -77,7 +77,6 @@
 #X connect 25 1 1 0;
 #X connect 26 0 41 0;
 #X connect 26 0 29 0;
-#X connect 26 0 47 1;
 #X connect 27 0 38 0;
 #X connect 32 0 44 0;
 #X connect 33 0 37 0;
@@ -95,6 +94,7 @@
 #X connect 40 0 26 0;
 #X connect 41 0 4 2;
 #X connect 41 0 6 1;
+#X connect 41 0 47 1;
 #X connect 44 0 33 0;
 #X connect 44 1 22 0;
 #X connect 45 0 32 0;

@@ -1,6 +1,6 @@
-#N canvas 983 254 1334 503 12;
-#X floatatom 197 181 5 0 0 0 thresh_high #0-eztrgrnstr_hi -, f 5;
-#X floatatom 197 154 5 0 0 0 thresh_low #0-eztrgrnstr_lo -, f 5;
+#N canvas 983 254 1241 903 12;
+#X floatatom 208 176 5 0 0 0 thresh_high #0-eztrgrnstr_hi -, f 5;
+#X floatatom 208 149 5 0 0 0 thresh_low #0-eztrgrnstr_lo -, f 5;
 #X obj 443 144 inlet;
 #X obj 555 211 inlet;
 #X obj 443 169 s \$0-eztrgrnstr_lo;
@@ -10,9 +10,9 @@
 #X obj 1092 227 inlet;
 #X text 1147 227 bypass;
 #X obj 954 342 array define \$0-eztrgrnstr_arr;
-#X floatatom 198 204 5 0 0 0 stretch #0-eztrgrnstr_stretch #0-eztrgrnstr_stretch_s
+#X floatatom 209 199 5 0 0 0 stretch #0-eztrgrnstr_stretch #0-eztrgrnstr_stretch_s
 , f 5;
-#X floatatom 198 229 5 0 0 0 max_len(ms) #0-eztrgrnstr_len #0-eztrgrnstr_len_s
+#X floatatom 209 224 5 0 0 0 max_len(ms) #0-eztrgrnstr_len #0-eztrgrnstr_len_s
 , f 5;
 #X obj 707 142 inlet;
 #X text 774 142 stretch;
@@ -20,10 +20,10 @@
 #X obj 843 204 inlet;
 #X text 893 204 max_len;
 #X obj 850 248 s \$0-eztrgrnstr_len;
-#X obj 232 132 tgl 15 0 empty \$0-eztrgrnstr_bypass bypass 17 7 0 12
+#X obj 232 127 tgl 15 0 empty \$0-eztrgrnstr_bypass bypass 17 7 0 12
 -262144 -1 -1 0 1;
 #X obj 1092 252 s \$0-eztrgrnstr_bypass;
-#X obj 187 132 tgl 15 0 empty empty on 17 7 0 12 -262144 -1 -1 1 1
+#X obj 187 127 tgl 15 0 empty empty on 17 7 0 12 -262144 -1 -1 0 1
 ;
 #N canvas 1042 521 933 449 \$0-eztrgrnstr_defaults 0;
 #X obj 169 99 loadbang;
@@ -77,9 +77,9 @@
 #X text 1081 72 gpl v 3 2017;
 #X text 780 442 args: thresh_low \, thresh_hi \, stretch \, max_len
 (ms);
-#X obj 132 133 tgl 15 0 empty empty auto 17 7 0 12 -262144 -1 -1 1
+#X obj 132 128 tgl 15 0 empty empty auto 17 7 0 12 -262144 -1 -1 0
 1;
-#X obj 254 177 bng 30 250 50 0 empty \$0-eztrgrnstr_trig trig 0 -7
+#X obj 265 158 bng 30 250 50 0 empty \$0-eztrgrnstr_trig trig 0 -7
 0 12 -262144 -1 -1;
 #X obj 1015 144 inlet;
 #X obj 1015 169 s \$0-eztrgrnstr_trig;
@@ -147,7 +147,7 @@
 #X connect 23 0 4 0;
 #X connect 27 0 16 0;
 #X connect 30 0 7 0;
-#X restore 76 329 pd \$0-eztrgrnstr_recorder;
+#X restore 49 407 pd \$0-eztrgrnstr_recorder;
 #N canvas 843 439 1062 735 \$0-eztrgrnstr_player 0;
 #X obj 706 229 pdkvabs/dkms2smp;
 #X obj 706 254 array size \$0-eztrgrnstr_arr;
@@ -177,6 +177,9 @@
 #X text 383 48 on;
 #X obj 107 40 inlet;
 #X text 162 45 trig playback;
+#X obj 757 41 inlet;
+#X text 820 46 transposition;
+#X msg 757 66 transpose \$1;
 #X connect 0 0 1 0;
 #X connect 0 0 2 0;
 #X connect 2 0 21 0;
@@ -208,10 +211,16 @@
 #X connect 22 0 21 2;
 #X connect 23 0 21 1;
 #X connect 25 0 7 0;
-#X restore 254 373 pd \$0-eztrgrnstr_player;
+#X connect 27 0 29 0;
+#X connect 29 0 21 2;
+#X restore 275 441 pd \$0-eztrgrnstr_player;
 #X obj 355 207 inlet~;
-#X obj 255 470 outlet~;
-#X obj 244 435 pdkvabs/dkswitch2~;
+#X obj 348 524 outlet~;
+#X obj 337 489 pdkvabs/dkswitch2~;
+#X floatatom 209 250 5 0 0 0 transpose(hs) - -, f 5;
+#X obj 256 253 bng 15 250 50 0 empty empty no_t 17 7 0 10 -262144 -1
+-1;
+#X msg 252 325 0;
 #X connect 0 0 33 3;
 #X connect 1 0 33 2;
 #X connect 2 0 4 0;
@@ -229,4 +238,7 @@
 #X connect 35 0 33 0;
 #X connect 35 0 37 1;
 #X connect 37 0 36 0;
-#X coords 0 -1 1 1 200 150 1 100 100;
+#X connect 38 0 34 2;
+#X connect 39 0 40 0;
+#X connect 40 0 38 0;
+#X coords 0 -1 1 1 200 175 1 100 100;

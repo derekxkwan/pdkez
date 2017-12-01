@@ -1,12 +1,12 @@
 #N canvas 847 271 1271 616 12;
 #X obj 114 177 hsl 250 15 0 1 0 0 empty \$0-dkezsyncgrnplayM_start
-start_point -2 -8 0 12 -262144 -1 -1 0 1;
+start_point -2 -8 0 12 -262144 -1 -1 14800 1;
 #X floatatom 192 157 9 0 0 0 - - -, f 9;
 #X obj 113 213 hsl 250 15 0 1 0 0 empty \$0-dkezsyncgrnplayM_end end_point
--2 -8 0 12 -262144 -1 -1 24900 1;
+-2 -8 0 12 -262144 -1 -1 12200 1;
 #X floatatom 183 194 9 0 0 0 - - -, f 9;
 #X obj 110 254 hsl 250 15 0.01 4 0 0 empty \$0-dkezsyncgrnplayM_rate
-rate -2 -8 0 12 -262144 -1 -1 6178 1;
+rate -2 -8 0 12 -262144 -1 -1 4400 1;
 #X floatatom 151 231 9 0 0 0 - - -, f 9;
 #X obj 192 135 bng 20 250 50 0 empty empty play 22 10 0 12 -262144
 -1 -1;

@@ -1,15 +1,15 @@
 #N canvas 1 606 1392 714 12;
-#X obj 111 202 hsl 128 15 20 100 0 0 empty \$0-ezringmod_rate rate
--2 -8 0 12 -262144 -1 -1 0 1;
-#X floatatom 254 202 5 0 0 0 - - -, f 5;
-#X obj 237 148 tgl 15 0 empty \$0-ezringmod_bypass bypass 17 7 0 12
+#X obj 112 160 hsl 128 15 20 100 0 0 empty \$0-ezringmod_rate rate
+-2 -8 0 12 -262144 -1 -1 12700 1;
+#X floatatom 255 160 5 0 0 0 - - -, f 5;
+#X obj 238 113 tgl 15 0 empty \$0-ezringmod_bypass bypass 17 7 0 12
 -262144 -1 -1 0 1;
 #X obj 423 629 pdkez_switcher;
 #X obj 478 102 inlet~;
 #X obj 594 258 osc~ 3;
-#X obj 112 173 hsl 128 15 0 1 0 0 empty \$0-ezringmod_depth depth -2
+#X obj 113 131 hsl 128 15 0 1 0 0 empty \$0-ezringmod_depth depth -2
 -8 0 12 -262144 -1 -1 12700 1;
-#X floatatom 255 174 5 0 0 0 - - -, f 5;
+#X floatatom 256 132 5 0 0 0 - - -, f 5;
 #X obj 381 393 *~ 0, f 6;
 #X obj 87 3 loadbang;
 #X obj 423 654 outlet~;
@@ -72,4 +72,4 @@
 #X connect 34 1 32 1;
 #X connect 35 0 32 1;
 #X connect 36 0 32 2;
-#X coords 0 -1 1 1 200 125 1 100 100;
+#X coords 0 -1 1 1 200 80 1 100 100;

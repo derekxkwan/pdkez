@@ -1,4 +1,4 @@
-#N canvas 1146 277 733 611 12;
+#N canvas 1082 410 733 611 12;
 #X floatatom 240 129 7 0 0 0 - - -, f 7;
 #X text 411 17 derek kwan;
 #X text 416 41 pdkez;
@@ -12,16 +12,16 @@
 #X msg 200 70 1;
 #X obj 105 36 inlet;
 #X text 150 36 vol;
-#X obj 245 106 tgl 15 0 empty empty mute 17 7 0 12 -262144 -1 -1 0
+#X obj 245 106 tgl 15 0 empty empty mute 17 7 0 12 -262144 -1 -1 1
 1;
 #X msg 313 298 0;
-#X obj 232 263 sel 1 0;
+#X obj 162 255 sel 1 0;
 #X msg 309 64 0;
 #X obj 337 28 t b b;
 #X obj 241 19 inlet;
 #X text 289 22 mute;
 #X obj 107 130 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 9500 1;
+-1 -1 400 1;
 #X connect 0 0 7 0;
 #X connect 4 0 5 0;
 #X connect 5 0 8 0;

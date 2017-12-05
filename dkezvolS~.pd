@@ -3,7 +3,7 @@
 #X text 501 10 derek kwan;
 #X text 506 34 pdkez;
 #X text 504 57 gpl v 3 2017;
-#X obj 35 57 inlet~;
+#X obj 16 83 inlet~;
 #X obj 204 403 *~;
 #X obj 240 362 line~;
 #X msg 247 327 \$1 5;
@@ -12,7 +12,7 @@
 #X obj 136 57 inlet;
 #X text 195 53 vol;
 #X msg 194 17 1;
-#X obj 320 164 inlet~;
+#X obj 68 52 inlet~;
 #X obj 317 410 *~;
 #X obj 353 369 line~;
 #X msg 360 334 \$1 5;
@@ -26,7 +26,7 @@
 #X obj 246 55 inlet;
 #X text 300 60 mute;
 #X obj 105 131 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 0 1;
+-1 -1 12700 1;
 #X connect 0 0 7 0;
 #X connect 0 0 16 0;
 #X connect 4 0 5 0;

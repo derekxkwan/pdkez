@@ -11,7 +11,7 @@
 #X obj 427 347 moses 1;
 #X msg 427 372 1;
 #X obj 106 130 hsl 128 30 0 2 0 0 empty \$0-dkezadc-gain gain -2 -8
-0 12 -262144 -1 -1 6350 1;
+0 12 -262144 -1 -1 12700 1;
 #X obj 461 54 inlet;
 #X obj 462 79 route gain chan;
 #X obj 500 107 i;

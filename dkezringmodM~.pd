@@ -1,9 +1,9 @@
 #N canvas 1 606 1392 714 12;
-#X obj 112 160 hsl 128 15 20 100 0 0 empty \$0-ezringmod_rate rate
--2 -8 0 12 -262144 -1 -1 12700 1;
+#X obj 112 160 hsl 128 15 5 100 0 0 empty \$0-ezringmod_rate rate -2
+-8 0 12 -262144 -1 -1 12700 1;
 #X floatatom 255 160 5 0 0 0 - - -, f 5;
 #X obj 238 113 tgl 15 0 empty \$0-ezringmod_bypass bypass 17 7 0 12
--262144 -1 -1 0 1;
+-262144 -1 -1 1 1;
 #X obj 423 629 pdkez_switcher;
 #X obj 478 102 inlet~;
 #X obj 594 258 osc~ 3;

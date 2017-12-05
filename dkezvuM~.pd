@@ -1,0 +1,27 @@
+#N canvas 549 658 579 281 12;
+#X obj 107 121 vu 15 120 empty empty -1 -8 0 10 -66577 -1 1 0;
+#X obj 159 126 tgl 15 0 empty empty on 0 -7 0 10 -262144 -1 -1 1 1
+;
+#X obj 25 68 inlet~;
+#X obj 25 93 env~ 128;
+#X obj 25 118 - 100;
+#X obj 281 57 inlet;
+#X obj 216 193 switch~;
+#X obj 197 39 loadbang;
+#X obj 197 64 f \$1;
+#X obj 197 89 > 0;
+#X text 27 13 dkezvuM~ - wrapper around VU;
+#X text 411 16 derek kwan \, pdkez;
+#X text 413 39 gpl v 3 \, 2017;
+#X text 291 119 arg/in2: on/off;
+#X obj 35 251 outlet;
+#X connect 1 0 6 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 0 0;
+#X connect 4 0 14 0;
+#X connect 5 0 1 0;
+#X connect 7 0 8 0;
+#X connect 8 0 9 0;
+#X connect 9 0 1 0;
+#X coords 0 -1 1 1 85 150 1 100 100;

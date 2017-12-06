@@ -1,14 +1,14 @@
 #N canvas 754 409 1375 809 12;
-#X obj 114 149 hsl 128 15 -1 1 0 0 empty \$0-dkezpan_val pan -2 -8
+#X obj 114 128 hsl 128 15 -1 1 0 0 empty \$0-dkezpan_val pan -2 -8
 0 12 -262144 -1 -1 6350 1;
 #X text 985 48 derek kwan;
 #X text 990 72 pdkez;
 #X text 988 95 gpl v 3 2017;
-#X floatatom 254 147 5 0 0 0 - - -, f 5;
+#X floatatom 254 126 5 0 0 0 - - -, f 5;
 #X obj 405 49 loadbang;
 #X obj 566 83 inlet;
 #X obj 738 83 inlet;
-#X obj 233 126 bng 15 250 50 0 empty \$0-dkezpan_center center 17 7
+#X obj 233 105 bng 15 250 50 0 empty \$0-dkezpan_center center 17 7
 0 12 -262144 -1 -1;
 #X text 791 79 center;
 #X obj 738 108 s \$0-dkezpan_center;
@@ -54,4 +54,4 @@
 #X connect 27 0 18 0;
 #X connect 28 0 27 0;
 #X connect 30 0 11 0;
-#X coords 0 -1 1 1 200 75 1 100 100;
+#X coords 0 -1 1 1 200 50 1 100 100;

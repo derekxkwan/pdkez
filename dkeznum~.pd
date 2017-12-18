@@ -11,7 +11,7 @@
 #X obj 102 180 metro;
 #X obj 210 241 outlet;
 #X text 393 82 rate (ms);
-#X obj 386 142 loadbang;
+#X obj 386 130 loadbang;
 #X obj 386 213 moses 1e-20;
 #X msg 386 238 50;
 #X obj 386 167 f \$1;
@@ -19,7 +19,8 @@
 #X text 736 18 derek kwan;
 #X text 740 34 pdkez;
 #X text 743 66 gpl v 3 2017;
-#X text 36 61 arg: rate (ms);
+#X text 36 61 arg: rate (ms) \, on/off;
+#X obj 445 170 f \$2;
 #X connect 1 0 8 0;
 #X connect 2 0 7 0;
 #X connect 3 0 1 0;
@@ -28,8 +29,10 @@
 #X connect 7 0 9 0;
 #X connect 8 0 7 0;
 #X connect 11 0 14 0;
+#X connect 11 0 20 0;
 #X connect 12 0 13 0;
 #X connect 12 1 8 1;
 #X connect 13 0 8 1;
 #X connect 14 0 12 0;
+#X connect 20 0 1 0;
 #X coords 0 -1 1 1 85 40 1 100 100;

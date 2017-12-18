@@ -1,16 +1,16 @@
 #N canvas 1044 182 939 386 12;
 #X floatatom 123 118 7 0 0 0 - - -, f 7;
-#X obj 102 119 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+#X obj 102 119 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
 1;
 #X obj 215 81 inlet~;
-#X obj 357 86 inlet;
+#X obj 490 78 inlet;
 #X text 288 76 sig~;
-#X text 410 86 on/off;
-#X obj 480 89 inlet;
+#X text 543 78 on/off;
+#X obj 345 80 inlet;
 #X obj 210 216 snapshot~;
 #X obj 102 180 metro;
 #X obj 210 241 outlet;
-#X text 528 91 rate (ms);
+#X text 393 82 rate (ms);
 #X obj 386 142 loadbang;
 #X obj 386 213 moses 1e-20;
 #X msg 386 238 50;

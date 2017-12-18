@@ -1,11 +1,11 @@
-#N canvas 754 409 1375 809 12;
-#X obj 114 128 hsl 128 15 -1 1 0 0 empty \$0-dkezpan_val pan -2 -8
+#N canvas 754 409 1160 576 12;
+#X obj 112 126 hsl 128 15 -1 1 0 0 empty \$0-dkezpan_val empty -2 -8
 0 12 -262144 -1 -1 6350 1;
 #X text 985 48 derek kwan;
 #X text 990 72 pdkez;
 #X text 988 95 gpl v 3 2017;
-#X floatatom 254 126 5 0 0 0 - - -, f 5;
-#X obj 405 49 loadbang;
+#X floatatom 252 124 5 0 0 0 - - -, f 5;
+#X obj 402 85 loadbang;
 #X obj 566 83 inlet;
 #X obj 738 83 inlet;
 #X obj 233 105 bng 15 250 50 0 empty \$0-dkezpan_center center 17 7
@@ -13,7 +13,7 @@
 #X text 791 79 center;
 #X obj 738 108 s \$0-dkezpan_center;
 #X obj 554 199 s \$0-dkezpan_val;
-#X obj 502 94 f \$1;
+#X obj 515 116 f \$1;
 #X text 619 79 pan;
 #X msg 124 67 0;
 #X obj 345 200 inlet~;
@@ -32,10 +32,11 @@
 #X obj 459 379 * -1;
 #X text 82 230 stereo-to-stereo panner;
 #X obj 515 143 clip -1 1;
+#X text 81 254 arg: pan, f 9;
 #X connect 0 0 4 0;
 #X connect 0 0 25 0;
 #X connect 5 0 12 0;
-#X connect 6 0 30 0;
+#X connect 6 0 12 0;
 #X connect 7 0 10 0;
 #X connect 8 0 14 0;
 #X connect 12 0 30 0;
@@ -54,4 +55,4 @@
 #X connect 27 0 18 0;
 #X connect 28 0 27 0;
 #X connect 30 0 11 0;
-#X coords 0 -1 1 1 200 50 1 100 100;
+#X coords 0 -1 1 1 200 45 1 100 100;

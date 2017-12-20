@@ -1,0 +1,113 @@
+#N canvas 928 280 1253 773 12;
+#X obj 114 177 hsl 250 15 0 1 0 0 empty \$0-dkezgrnstrM_start
+start_point -2 -8 0 12 -262144 -1 -1 0 1;
+#X floatatom 192 157 9 0 0 0 - - -, f 9;
+#X obj 113 213 hsl 250 15 0 1 0 0 empty \$0-dkezgrnstrM_end end_point
+-2 -8 0 12 -262144 -1 -1 24900 1;
+#X floatatom 183 194 9 0 0 0 - - -, f 9;
+#X obj 110 254 hsl 250 15 0.01 4 0 0 empty \$0-dkezgrnstrM_rate
+rate -2 -8 0 12 -262144 -1 -1 6178 1;
+#X floatatom 151 231 9 0 0 0 - - -, f 9;
+#X obj 192 135 bng 20 250 50 0 empty empty play 22 10 0 12 -262144
+-1 -1;
+#X obj 237 232 bng 15 250 50 0 empty empty normal_rate 17 7 0 10 -262144
+-1 -1;
+#X msg 387 244 1;
+#X obj 308 133 tgl 20 0 empty \$0-dkezgrnstrM_loop loop 22 10
+0 12 -262144 -1 -1 0 1;
+#X obj 511 36 inlet;
+#X text 575 36 start;
+#X obj 112 61 inlet;
+#X text 171 58 trig;
+#X obj 681 136 inlet;
+#X text 745 136 stop;
+#X obj 802 33 inlet;
+#X text 866 33 rate;
+#X obj 426 135 inlet;
+#X text 486 144 loop;
+#X obj 845 294 loadbang;
+#X obj 845 319 f \$0;
+#X obj 127 592 outlet~;
+#X obj 521 95 s \$0-dkezgrnstrM_start;
+#X obj 661 184 s \$0-dkezgrnstrM_stop;
+#X obj 782 89 s \$0-dkezgrnstrM_rate;
+#X obj 406 183 s \$0-dkezgrnstrM_loop;
+#X obj 216 57 inlet;
+#X text 264 57 stop;
+#X obj 251 132 bng 20 250 50 0 empty empty stop 22 10 0 12 -262144
+-1 -1;
+#X floatatom 107 139 9 0 0 2 dur_in_ms - -, f 9;
+#X text 1110 32 derek kwan;
+#X text 1115 56 pdkez;
+#X text 1113 79 gpl v 3 2017;
+#X obj 109 290 hsl 250 15 -24 24 0 0 empty \$0-dkezgrnstrM_transpose
+transposition -2 -8 0 12 -262144 -1 -1 12450 1;
+#X obj 319 272 bng 15 250 50 0 empty empty none 17 7 0 10 -262144 -1
+-1;
+#X msg 403 297 0;
+#X obj 451 336 loadbang;
+#X msg 451 361 randms 10 \, grainms 50 \, overlap 4 \, randlen 0.2
+;
+#X msg 500 432 transpose \$1;
+#X msg 19 378 1;
+#X msg 69 378 0;
+#X obj 901 131 inlet;
+#X obj 896 183 s \$0-dkezgrnstrM_transpose;
+#X msg 845 344 \; \$1-dkezgrnstrM_start 0 \; \$1-dkezgrnstrM_end
+1 \; \$1-dkezgrnstrM_rate 1 \; \$1-dkezgrnstrM_loop 0 \;
+\$1-dkezgrnstrM_transpose 0 \;;
+#X floatatom 207 272 9 0 0 0 - - -, f 9;
+#X obj 108 400 pdkez-sndplay_ptr~ \$1-0, f 38;
+#X text 955 134 transpose;
+#X text 626 487 arg: array name;
+#X text 622 516 (will read from name-0 \, name-1);
+#X obj 360 599 outlet~;
+#X obj 126 526 *~;
+#X obj 359 527 *~;
+#X obj 126 501 pdkvabs/dkxgrn~ \$1-0 8;
+#X obj 359 502 pdkvabs/dkxgrn~ \$1-1 8;
+#X connect 0 0 1 0;
+#X connect 0 0 46 2;
+#X connect 2 0 3 0;
+#X connect 2 0 46 3;
+#X connect 4 0 5 0;
+#X connect 4 0 46 4;
+#X connect 6 0 40 0;
+#X connect 6 0 46 0;
+#X connect 7 0 8 0;
+#X connect 8 0 4 0;
+#X connect 9 0 46 5;
+#X connect 10 0 23 0;
+#X connect 12 0 6 0;
+#X connect 14 0 24 0;
+#X connect 16 0 25 0;
+#X connect 18 0 26 0;
+#X connect 20 0 21 0;
+#X connect 21 0 44 0;
+#X connect 27 0 29 0;
+#X connect 29 0 41 0;
+#X connect 29 0 46 1;
+#X connect 34 0 39 0;
+#X connect 34 0 45 0;
+#X connect 35 0 36 0;
+#X connect 36 0 34 0;
+#X connect 37 0 38 0;
+#X connect 38 0 53 2;
+#X connect 38 0 54 2;
+#X connect 39 0 53 2;
+#X connect 39 0 54 2;
+#X connect 40 0 53 1;
+#X connect 40 0 54 1;
+#X connect 41 0 53 1;
+#X connect 41 0 54 1;
+#X connect 42 0 43 0;
+#X connect 46 0 53 0;
+#X connect 46 0 54 0;
+#X connect 46 1 51 1;
+#X connect 46 1 52 1;
+#X connect 46 2 30 0;
+#X connect 51 0 22 0;
+#X connect 52 0 50 0;
+#X connect 53 0 51 0;
+#X connect 54 0 52 0;
+#X coords 0 -1 1 1 275 210 1 100 100;

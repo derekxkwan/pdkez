@@ -1,0 +1,17 @@
+#N canvas 1068 552 840 561 12;
+#X obj 177 227 inlet;
+#X obj 177 314 f;
+#X obj 242 222 r \$1-min;
+#X obj 177 252 sel 0 1, f 33;
+#X obj 307 322 pdkvabs/dkrrand 1 1;
+#X obj 357 187 r \$1-min;
+#X obj 445 183 r \$1-max;
+#X obj 177 423 outlet;
+#X connect 0 0 3 0;
+#X connect 1 0 7 0;
+#X connect 2 0 1 1;
+#X connect 3 0 1 0;
+#X connect 3 1 4 0;
+#X connect 4 0 7 0;
+#X connect 5 0 4 1;
+#X connect 6 0 4 2;

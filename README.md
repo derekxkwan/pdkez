@@ -10,7 +10,7 @@ Distributed under GPL v3.
 
 Abstraction names should be relatively self-explanatory.
 
-some abstractions need [pdkvabs](https://github.com/derekxkwan/pdkvabs) (whose contents should be flattened into one folder). These are in the *ezvabs* folder and should be put in the main pdkez folder before use.
+some abstractions need [pdkvabs](https://github.com/derekxkwan/pdkvabs) (whose contents besides the util folder should be flattened into one folder). These are in the *ezvabs* folder and should be put in the main pdkez folder before use.
 
 
 helper patches (not meant to be used directly) are suffixed by _h

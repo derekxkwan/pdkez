@@ -7,8 +7,8 @@ max_pos -2 -8 0 12 -262144 -1 -1 16900 1;
 #X floatatom 294 210 7 0 0 0 - - -, f 7;
 #X obj 110 137 bng 30 250 50 0 \$0-ezgrnchop_trig empty trig 0 -7 0
 12 -262144 -1 -1;
-#X obj 173 165 tgl 15 0 \$0-ezgrnchop_randpos empty rand_pos 17 7 0
-12 -262144 -1 -1 0 1;
+#X obj 173 165 tgl 15 0 \$0-ezgrnchop_randpos \$0-ezgrnchop_randpos_r
+rand_pos 17 7 0 12 -262144 -1 -1 0 1;
 #X obj 231 234 tgl 15 0 \$0-ezgrnchop_randspeed \$0-ezgrnchop_randspeed_r
 rand_spd 17 7 0 12 -262144 -1 -1 0 1;
 #X obj 105 299 tgl 15 0 \$0-ezgrnchop_randtpose \$0-ezgrnchop_randtpose_r

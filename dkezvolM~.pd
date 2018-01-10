@@ -1,32 +1,35 @@
-#N canvas 1082 410 733 611 12;
+#N canvas 1082 410 976 631 12;
 #X floatatom 239 174 7 0 0 0 - - -, f 7;
-#X text 572 17 derek kwan;
-#X text 577 41 pdkez;
-#X text 575 64 gpl v 3 2017;
+#X text 659 17 derek kwan;
+#X text 664 41 pdkez;
+#X text 662 64 gpl v 3 2017;
 #X obj 20 44 inlet~;
 #X obj 198 412 *~;
 #X obj 239 283 line~;
 #X obj 198 437 outlet~;
-#X obj 337 3 loadbang;
+#X obj 424 3 loadbang;
 #X obj 105 36 inlet;
 #X text 150 36 vol;
 #X obj 245 156 tgl 15 0 empty empty mute 17 7 0 12 -262144 -1 -1 0
 1;
-#X obj 337 28 t b b, f 14;
-#X obj 241 19 inlet;
-#X text 289 22 mute;
-#X obj 106 175 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
--1 -1 12700 1;
+#X obj 424 28 t b b, f 14;
+#X obj 325 24 inlet;
+#X text 373 27 mute;
+#X obj 106 175 hsl 128 15 0 2 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 6350 1;
 #X obj 346 361 line~;
 #X obj 241 375 *~;
 #X msg 308 264 \$1 1;
 #X msg 242 238 \$1 1;
 #X obj 299 228 == 0;
-#X obj 446 171 f \$2;
-#X obj 338 59 f \$1;
-#X obj 338 84 moses 1e-30;
-#X msg 338 109 1;
+#X obj 533 171 f \$2;
+#X obj 425 59 f \$1;
+#X obj 425 84 moses 1e-30;
+#X msg 425 109 1;
 #X text 436 287 args: vol \, mute;
+#X obj 187 154 bng 15 250 50 0 empty empty unity 17 7 0 10 -262144
+-1 -1;
+#X msg 187 240 1;
 #X connect 0 0 19 0;
 #X connect 4 0 5 0;
 #X connect 5 0 7 0;
@@ -48,4 +51,6 @@
 #X connect 23 0 24 0;
 #X connect 23 1 15 0;
 #X connect 24 0 15 0;
+#X connect 26 0 27 0;
+#X connect 27 0 15 0;
 #X coords 0 -1 1 1 200 45 1 100 150;

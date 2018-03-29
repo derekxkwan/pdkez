@@ -1,13 +1,13 @@
-#N canvas 1183 492 933 471 12;
+#N canvas 329 294 933 471 12;
 #X obj 112 182 hsl 175 15 0 1 0 0 \$0-ezgrnchop_pos-min \$0-ezgrnchop_pos-min_r
 min_pos -2 -8 0 12 -262144 -1 -1 0 1;
 #X floatatom 297 182 7 0 0 0 - - -, f 7;
 #X obj 111 214 hsl 170 15 0 1 0 0 \$0-ezgrnchop_pos-max \$0-ezgrnchop_pos-max_r
 max_pos -2 -8 0 12 -262144 -1 -1 16900 1;
 #X floatatom 294 210 7 0 0 0 - - -, f 7;
-#X obj 110 137 bng 30 250 50 0 \$0-ezgrnchop_trig empty trig 0 -7 0
+#X obj 104 143 bng 20 250 50 0 \$0-ezgrnchop_trig empty trig 0 -7 0
 12 -262144 -1 -1;
-#X obj 173 165 tgl 15 0 \$0-ezgrnchop_randpos \$0-ezgrnchop_randpos_r
+#X obj 165 161 tgl 15 0 \$0-ezgrnchop_randpos \$0-ezgrnchop_randpos_r
 rand_pos 17 7 0 12 -262144 -1 -1 0 1;
 #X obj 231 234 tgl 15 0 \$0-ezgrnchop_randspeed \$0-ezgrnchop_randspeed_r
 rand_spd 17 7 0 12 -262144 -1 -1 0 1;
@@ -15,7 +15,7 @@ rand_spd 17 7 0 12 -262144 -1 -1 0 1;
 rand_tp 17 7 0 12 -262144 -1 -1 0 1;
 #X obj 109 233 tgl 15 0 \$0-ezgrnchop_randdur \$0-ezgrnchop_randdur_r
 rnd_dur 17 7 0 12 -262144 -1 -1 0 1;
-#X obj 181 136 tgl 15 0 \$0-ezgrnchop_sync \$0-ezgrnchop_sync_r sync
+#X obj 160 140 tgl 15 0 \$0-ezgrnchop_sync \$0-ezgrnchop_sync_r sync
 17 7 0 12 -262144 -1 -1 0 1;
 #X floatatom 183 279 5 1 1e+30 0 max_dur #0-ezgrnchop_dur-max_r #0-ezgrnchop_dur-max
 , f 5;
@@ -33,13 +33,13 @@ rnd_dur 17 7 0 12 -262144 -1 -1 0 1;
 , f 5;
 #X obj 176 300 bng 15 250 50 0 \$0-ezgrnchop_tpose0 empty tp_0 17 7
 0 12 -262144 -1 -1;
-#X obj 230 134 tgl 15 0 \$0-ezgrnchop_loop \$0-ezgrnchop_loop_r loop
+#X obj 208 141 tgl 15 0 \$0-ezgrnchop_loop \$0-ezgrnchop_loop_r loop
 17 7 0 12 -262144 -1 -1 0 1;
-#X floatatom 317 158 5 0 1e+30 0 base_dur #0-ezgrnchop_dur-base_r #0-ezgrnchop_dur-base
+#X floatatom 303 158 5 0 1e+30 0 base_dur #0-ezgrnchop_dur-base_r #0-ezgrnchop_dur-base
 , f 5;
 #X floatatom 321 350 5 0 1e+30 0 max_break #0-ezgrnchop_break-max_r
 #0-ezgrnchop_break-max, f 5;
-#X floatatom 317 133 5 1 1e+30 0 len #0-ezgrnchop_length_r #0-ezgrnchop_length
+#X floatatom 274 132 5 1 1e+30 0 len #0-ezgrnchop_length_r #0-ezgrnchop_length
 , f 5;
 #X obj 109 27 inlet;
 #X obj 227 23 inlet;
@@ -50,7 +50,7 @@ rnd_dur 17 7 0 12 -262144 -1 -1 0 1;
 #X text 428 149 args: array \, durbase \, sync \, loop;
 #X obj 227 48 f \$3;
 #X obj 322 50 f \$4;
-#X obj 149 140 bng 20 250 50 0 \$0-ezgrnchop_stop empty stop 0 -7 0
+#X obj 134 143 bng 20 250 50 0 \$0-ezgrnchop_stop empty stop 0 -7 0
 12 -262144 -1 -1;
 #X text 793 28 derek kwan;
 #X text 793 48 pdkez;
@@ -88,32 +88,35 @@ tp_i 17 7 0 12 -262144 -1 -1 0 1;
 #X obj 595 171 s \$0-ezgrnchop_length_r;
 #X obj 630 210 s \$0-ezgrnchop_dur-base_r;
 #X obj 699 243 s \$0-ezgrnchop_sync_r;
-#X obj 60 93 route min_pos max_pos min_dur max_dur min_speed max_speed
-min_tpose max_tpose min_break max_break rand_pos rand_dur rand_speed
-rand_tpose rand_break length base_dur sync loop tpose_i, f 108;
 #X obj 727 275 s \$0-ezgrnchop_loop_r;
 #X obj 754 331 s \$0-ezgrnchop_tpose_i_r;
-#X connect 0 0 19 0;
-#X connect 19 0 1 0;
-#X connect 19 1 2 0;
-#X connect 19 2 3 0;
-#X connect 19 3 4 0;
-#X connect 19 4 5 0;
-#X connect 19 5 6 0;
-#X connect 19 6 7 0;
-#X connect 19 7 8 0;
-#X connect 19 8 9 0;
-#X connect 19 9 10 0;
-#X connect 19 10 11 0;
-#X connect 19 11 12 0;
-#X connect 19 12 13 0;
-#X connect 19 13 14 0;
-#X connect 19 14 15 0;
-#X connect 19 15 16 0;
-#X connect 19 16 17 0;
-#X connect 19 17 18 0;
-#X connect 19 18 20 0;
-#X connect 19 19 21 0;
+#X obj 60 93 route min_pos max_pos min_dur max_dur min_speed max_speed
+min_tpose max_tpose min_break max_break rand_pos rand_dur rand_speed
+rand_tpose rand_break length base_dur sync loop tpose_i ch, f 108
+;
+#X obj 777 157 s \$0-ezgrnchop_ch_r;
+#X connect 0 0 21 0;
+#X connect 21 0 1 0;
+#X connect 21 1 2 0;
+#X connect 21 2 3 0;
+#X connect 21 3 4 0;
+#X connect 21 4 5 0;
+#X connect 21 5 6 0;
+#X connect 21 6 7 0;
+#X connect 21 7 8 0;
+#X connect 21 8 9 0;
+#X connect 21 9 10 0;
+#X connect 21 10 11 0;
+#X connect 21 11 12 0;
+#X connect 21 12 13 0;
+#X connect 21 13 14 0;
+#X connect 21 14 15 0;
+#X connect 21 15 16 0;
+#X connect 21 16 17 0;
+#X connect 21 17 18 0;
+#X connect 21 18 19 0;
+#X connect 21 19 20 0;
+#X connect 21 20 22 0;
 #X restore 584 88 pd pdkez_ezgrnchop_msg;
 #N canvas 1379 361 938 655 pdkez_ezgrnchop_load 0;
 #X obj 311 281 f \$0;
@@ -143,7 +146,7 @@ rand_tpose rand_break length base_dur sync loop tpose_i, f 108;
 \$1-ezgrnchop_randpos_r 0 \; \$1-ezgrnchop_randdur_r 0 \; \$1-ezgrnchop_randbreak_r
 0 \; \$1-ezgrnchop_randspeed_r 0 \; \$1-ezgrnchop_randtpose_r 0 \;
 \$1-ezgrnchop_length_r 1 \; \$1-ezgrnchop_tpose_i_r 0 \; \$1-ezgrnchop_sync_r
-0 \; \$1-ezgrnchop_loop_r 0 \;;
+0 \; \$1-ezgrnchop_loop_r 0 \; \$1-ezgrnchop_ch_r 100 \;;
 #X connect 0 0 9 0;
 #X connect 1 0 0 0;
 #X connect 2 0 3 0;
@@ -266,6 +269,8 @@ rand_tpose rand_break length base_dur sync loop tpose_i, f 108;
 #X obj 278 904 outlet~;
 #X obj 30 853 pdkvabs/dksndchopgrn~ \$1-0 4 1;
 #X obj 278 862 pdkvabs/dksndchopgrn~ \$1-1 4 1;
+#X obj 477 632 pdkvabs/dkrgate 100;
+#X obj 602 577 r \$0-ezgrnchop_ch;
 #X connect 0 0 9 0;
 #X connect 1 0 39 0;
 #X connect 2 0 1 0;
@@ -277,7 +282,7 @@ rand_tpose rand_break length base_dur sync loop tpose_i, f 108;
 #X connect 7 0 8 0;
 #X connect 8 0 23 0;
 #X connect 8 1 23 3;
-#X connect 9 0 14 0;
+#X connect 9 0 54 0;
 #X connect 10 0 23 0;
 #X connect 10 1 23 1;
 #X connect 11 0 23 0;
@@ -328,6 +333,8 @@ rand_tpose rand_break length base_dur sync loop tpose_i, f 108;
 #X connect 50 0 53 0;
 #X connect 52 0 24 0;
 #X connect 53 0 51 0;
+#X connect 54 0 14 0;
+#X connect 55 0 54 1;
 #X restore 404 357 pd pdkez_ezgrnchop_snd;
 #X obj 445 25 inlet;
 #X obj 681 418 outlet;
@@ -340,6 +347,8 @@ rand_tpose rand_break length base_dur sync loop tpose_i, f 108;
 ;
 #X obj 466 422 outlet~;
 #X text 433 230 outlets: sig \, sig \, count+list \, trig;
+#X floatatom 329 131 5 0 0 0 ch #0-ezgrnchop_ch_r #0-ezgrnchop_ch,
+f 5;
 #X connect 0 0 1 0;
 #X connect 2 0 3 0;
 #X connect 22 0 4 0;

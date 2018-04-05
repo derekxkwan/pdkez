@@ -619,7 +619,7 @@ f 5;
 #X obj 520 617 r \$0-eznobu_array;
 #X msg 386 640 dur \$1;
 #X msg 520 641 set \$1;
-#X obj 805 208 tgl 15 0 \$0-eznobu_absrel \$0-eznobu_absrel_r abs/rel
+#X obj 654 210 tgl 15 0 \$0-eznobu_absrel \$0-eznobu_absrel_r abs/rel
 17 7 0 12 -262144 -1 -1 1 1;
 #X obj 516 520 r \$0-eznobu_absrel;
 #X msg 516 544 absrel \$1;
@@ -673,9 +673,9 @@ f 5;
 #X restore 747 685 pd eznobu_dump;
 #X obj 747 722 outlet;
 #X text 804 722 dump;
-#X obj 735 209 bng 15 250 50 0 \$0-eznobu_loc_rnd empty loc_rnd 17
+#X obj 584 210 bng 15 250 50 0 \$0-eznobu_loc_rnd empty loc_rnd 17
 7 0 12 -262144 -1 -1;
-#X obj 667 208 bng 15 250 50 0 \$0-eznobu_seq_rnd empty seq_rnd 17
+#X obj 516 210 bng 15 250 50 0 \$0-eznobu_seq_rnd empty seq_rnd 17
 7 0 12 -262144 -1 -1;
 #X obj 807 97 s \$0-eznobu_seq_dump;
 #X obj 865 174 s \$0-eznobu_loc_dump;
@@ -683,9 +683,9 @@ f 5;
 seq_dump loc_dump seq_rnd loc_rnd, f 126;
 #X obj 1009 94 s \$0-eznobu_loc_rnd;
 #X obj 932 136 s \$0-eznobu_seq_rnd;
-#X obj 591 208 bng 15 250 50 0 \$0-eznobu_loc_dump empty loc_dump 17
+#X obj 797 210 bng 15 250 50 0 \$0-eznobu_loc_dump empty loc_dump 17
 7 0 12 -262144 -1 -1;
-#X obj 516 208 bng 15 250 50 0 \$0-eznobu_seq_dump empty seq_dump 17
+#X obj 722 210 bng 15 250 50 0 \$0-eznobu_seq_dump empty seq_dump 17
 7 0 12 -262144 -1 -1;
 #X connect 51 0 65 0;
 #X connect 52 0 87 0;

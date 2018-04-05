@@ -1,9 +1,9 @@
 #N canvas 716 354 1370 485 12;
 #X obj 112 182 hsl 175 15 0 1 0 0 \$0-ezgrnchop_pos-min \$0-ezgrnchop_pos-min_r
-min_pos -2 -8 0 12 -262144 -1 -1 0 1;
+min_pos -2 -8 0 12 -262144 -1 -1 4400 1;
 #X floatatom 297 182 7 0 0 0 - - -, f 7;
 #X obj 111 214 hsl 170 15 0 1 0 0 \$0-ezgrnchop_pos-max \$0-ezgrnchop_pos-max_r
-max_pos -2 -8 0 12 -262144 -1 -1 0 1;
+max_pos -2 -8 0 12 -262144 -1 -1 9500 1;
 #X floatatom 294 210 7 0 0 0 - - -, f 7;
 #X obj 103 143 bng 20 250 50 0 \$0-ezgrnchop_trig empty trig 0 -7 0
 12 -262144 -1 -1;
@@ -69,7 +69,7 @@ tp_i 17 7 0 12 -262144 -1 -1 0 1;
 #X text 433 230 outlets: sig \, count+list \, trig;
 #X obj 628 23 inlet;
 #X text 683 26 messages;
-#N canvas 835 265 1020 504 pdkez_ezgrnchop_msg 0;
+#N canvas 1254 214 1020 504 pdkez_ezgrnchop_msg 0;
 #X obj 64 44 inlet;
 #X obj 61 165 s \$0-ezgrnchop_pos-min_r;
 #X obj 88 192 s \$0-ezgrnchop_pos-max_r;
@@ -94,8 +94,9 @@ tp_i 17 7 0 12 -262144 -1 -1 0 1;
 #X obj 776 162 s \$0-ezgrnchop_ch_r;
 #X obj 60 93 route min_pos max_pos min_dur max_dur min_speed max_speed
 min_tpose max_tpose min_break max_break rand_pos rand_dur rand_speed
-rand_tpose rand_break length base_dur sync loop tpose_i chance, f
-108;
+rand_tpose rand_break length base_dur sync loop tpose_i chance set
+, f 108;
+#X obj 829 204 s \$0-ezgrnchop_setname;
 #X connect 0 0 22 0;
 #X connect 22 0 1 0;
 #X connect 22 1 2 0;
@@ -118,6 +119,7 @@ rand_tpose rand_break length base_dur sync loop tpose_i chance, f
 #X connect 22 18 19 0;
 #X connect 22 19 20 0;
 #X connect 22 20 21 0;
+#X connect 22 21 23 0;
 #X restore 584 88 pd pdkez_ezgrnchop_msg;
 #N canvas 1379 361 938 655 pdkez_ezgrnchop_load 0;
 #X obj 311 281 f \$0;
@@ -243,7 +245,7 @@ rand_tpose rand_break length base_dur sync loop tpose_i chance, f
 #X obj 39 890 outlet~;
 #X text 513 318 syncer;
 #X obj 749 474 r \$0-ezgrnchop_stop;
-#X msg 749 499 stop;
+#X msg 745 510 stop;
 #X obj 588 562 r \$0-ezgrnchop_length;
 #X obj 471 609 f;
 #X obj 521 601 + 1;
@@ -268,6 +270,9 @@ rand_tpose rand_break length base_dur sync loop tpose_i chance, f
 #X obj 39 865 pdkvabs/dksndchopgrn~ \$1 4 1;
 #X obj 351 582 r \$0-ezgrnchop_ch;
 #X obj 226 627 pdkvabs/dkrgate 100;
+#X obj 45 693 r \$0-ezgrnchop_setname;
+#X msg 45 717 set \$1;
+#X obj 745 534 t a a a;
 #X connect 0 0 9 0;
 #X connect 1 0 39 0;
 #X connect 2 0 1 0;
@@ -298,9 +303,7 @@ rand_tpose rand_break length base_dur sync loop tpose_i chance, f
 #X connect 22 0 20 1;
 #X connect 23 0 9 1;
 #X connect 26 0 27 0;
-#X connect 27 0 35 0;
-#X connect 27 0 43 0;
-#X connect 27 0 49 0;
+#X connect 27 0 54 0;
 #X connect 28 0 34 1;
 #X connect 29 0 30 0;
 #X connect 29 0 47 1;
@@ -328,6 +331,11 @@ rand_tpose rand_break length base_dur sync loop tpose_i chance, f
 #X connect 49 0 24 0;
 #X connect 50 0 51 1;
 #X connect 51 0 14 0;
+#X connect 52 0 53 0;
+#X connect 53 0 49 2;
+#X connect 54 0 49 0;
+#X connect 54 1 35 0;
+#X connect 54 2 43 0;
 #X restore 404 357 pd pdkez_ezgrnchop_snd;
 #X obj 445 25 inlet;
 #X obj 578 424 outlet;
@@ -340,6 +348,7 @@ rand_tpose rand_break length base_dur sync loop tpose_i chance, f
 ;
 #X floatatom 267 129 5 0 100 0 ch #0-ezgrnchop_ch_r #0-ezgrnchop_ch
 , f 5;
+#X obj 138 62 loadbang;
 #X connect 0 0 1 0;
 #X connect 2 0 3 0;
 #X connect 22 0 4 0;
@@ -352,4 +361,6 @@ rand_tpose rand_break length base_dur sync loop tpose_i chance, f
 #X connect 46 1 51 0;
 #X connect 46 2 48 0;
 #X connect 47 0 46 0;
+#X connect 56 0 29 0;
+#X connect 56 0 30 0;
 #X coords 0 -1 1 1 270 280 1 100 100;

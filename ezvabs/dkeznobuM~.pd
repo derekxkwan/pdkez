@@ -1,103 +1,103 @@
-#N canvas 517 269 1299 828 12;
-#X floatatom 268 231 5 0 0 0 - #0-eznobu-seq1_r #0-eznobu-seq1, f
+#N canvas 811 230 1299 828 12;
+#X floatatom 268 242 5 0 0 0 - #0-eznobu-seq1_r #0-eznobu-seq1, f
 5;
-#X floatatom 227 231 5 0 0 0 - #0-eznobu-seq0_r #0-eznobu-seq0, f
+#X floatatom 227 242 5 0 0 0 - #0-eznobu-seq0_r #0-eznobu-seq0, f
 5;
-#X floatatom 350 231 5 0 0 0 - #0-eznobu-seq3_r #0-eznobu-seq3, f
+#X floatatom 350 242 5 0 0 0 - #0-eznobu-seq3_r #0-eznobu-seq3, f
 5;
-#X floatatom 309 231 5 0 0 0 - #0-eznobu-seq2_r #0-eznobu-seq2, f
+#X floatatom 309 242 5 0 0 0 - #0-eznobu-seq2_r #0-eznobu-seq2, f
 5;
-#X floatatom 431 231 5 0 0 0 - #0-eznobu-seq5_r #0-eznobu-seq5, f
+#X floatatom 431 242 5 0 0 0 - #0-eznobu-seq5_r #0-eznobu-seq5, f
 5;
-#X floatatom 390 231 5 0 0 0 - #0-eznobu-seq4_r #0-eznobu-seq4, f
+#X floatatom 390 242 5 0 0 0 - #0-eznobu-seq4_r #0-eznobu-seq4, f
 5;
-#X floatatom 513 231 5 0 0 0 - #0-eznobu-seq7_r #0-eznobu-seq7, f
+#X floatatom 513 242 5 0 0 0 - #0-eznobu-seq7_r #0-eznobu-seq7, f
 5;
-#X floatatom 472 231 5 0 0 0 - #0-eznobu-seq6_r #0-eznobu-seq6, f
+#X floatatom 472 242 5 0 0 0 - #0-eznobu-seq6_r #0-eznobu-seq6, f
 5;
-#X floatatom 268 253 5 0 0 0 - #0-eznobu-seq9_r #0-eznobu-seq9, f
+#X floatatom 268 264 5 0 0 0 - #0-eznobu-seq9_r #0-eznobu-seq9, f
 5;
-#X floatatom 227 253 5 0 0 0 - #0-eznobu-seq8_r #0-eznobu-seq8, f
+#X floatatom 227 264 5 0 0 0 - #0-eznobu-seq8_r #0-eznobu-seq8, f
 5;
-#X floatatom 350 253 5 0 0 0 - #0-eznobu-seq10_r #0-eznobu-seq10,
+#X floatatom 350 264 5 0 0 0 - #0-eznobu-seq10_r #0-eznobu-seq10,
 f 5;
-#X floatatom 309 253 5 0 0 0 - #0-eznobu-seq11_r #0-eznobu-seq11,
+#X floatatom 309 264 5 0 0 0 - #0-eznobu-seq11_r #0-eznobu-seq11,
 f 5;
-#X floatatom 431 253 5 0 0 0 - #0-eznobu-seq13_r #0-eznobu-seq13,
+#X floatatom 431 264 5 0 0 0 - #0-eznobu-seq13_r #0-eznobu-seq13,
 f 5;
-#X floatatom 390 253 5 0 0 0 - #0-eznobu-seq12_r #0-eznobu-seq12,
+#X floatatom 390 264 5 0 0 0 - #0-eznobu-seq12_r #0-eznobu-seq12,
 f 5;
-#X floatatom 513 253 5 0 0 0 - #0-eznobu-seq15_r #0-eznobu-seq15,
+#X floatatom 513 264 5 0 0 0 - #0-eznobu-seq15_r #0-eznobu-seq15,
 f 5;
-#X floatatom 472 253 5 0 0 0 - #0-eznobu-seq14_r #0-eznobu-seq14,
+#X floatatom 472 264 5 0 0 0 - #0-eznobu-seq14_r #0-eznobu-seq14,
 f 5;
-#X floatatom 268 275 5 0 0 0 - #0-eznobu-seq17_r #0-eznobu-seq17,
+#X floatatom 268 286 5 0 0 0 - #0-eznobu-seq17_r #0-eznobu-seq17,
 f 5;
-#X floatatom 227 275 5 0 0 0 - #0-eznobu-seq16_r #0-eznobu-seq16,
+#X floatatom 227 286 5 0 0 0 - #0-eznobu-seq16_r #0-eznobu-seq16,
 f 5;
-#X floatatom 350 275 5 0 0 0 - #0-eznobu-seq19_r #0-eznobu-seq19,
+#X floatatom 350 286 5 0 0 0 - #0-eznobu-seq19_r #0-eznobu-seq19,
 f 5;
-#X floatatom 309 275 5 0 0 0 - #0-eznobu-seq18_r #0-eznobu-seq18,
+#X floatatom 309 286 5 0 0 0 - #0-eznobu-seq18_r #0-eznobu-seq18,
 f 5;
-#X floatatom 431 275 5 0 0 0 - #0-eznobu-seq21_r #0-eznobu-seq21,
+#X floatatom 431 286 5 0 0 0 - #0-eznobu-seq21_r #0-eznobu-seq21,
 f 5;
-#X floatatom 390 275 5 0 0 0 - #0-eznobu-seq20_r #0-eznobu-seq20,
+#X floatatom 390 286 5 0 0 0 - #0-eznobu-seq20_r #0-eznobu-seq20,
 f 5;
-#X floatatom 513 275 5 0 0 0 - #0-eznobu-seq23_r #0-eznobu-seq23,
+#X floatatom 513 286 5 0 0 0 - #0-eznobu-seq23_r #0-eznobu-seq23,
 f 5;
-#X floatatom 472 275 5 0 0 0 - #0-eznobu-seq22_r #0-eznobu-seq22,
+#X floatatom 472 286 5 0 0 0 - #0-eznobu-seq22_r #0-eznobu-seq22,
 f 5;
-#X floatatom 268 296 5 0 0 0 - #0-eznobu-seq25_r #0-eznobu-seq25,
+#X floatatom 268 307 5 0 0 0 - #0-eznobu-seq25_r #0-eznobu-seq25,
 f 5;
-#X floatatom 227 296 5 0 0 0 - #0-eznobu-seq24_r #0-eznobu-seq24,
+#X floatatom 227 307 5 0 0 0 - #0-eznobu-seq24_r #0-eznobu-seq24,
 f 5;
-#X floatatom 350 296 5 0 0 0 - #0-eznobu-seq27_r #0-eznobu-seq27,
+#X floatatom 350 307 5 0 0 0 - #0-eznobu-seq27_r #0-eznobu-seq27,
 f 5;
-#X floatatom 309 296 5 0 0 0 - #0-eznobu-seq26_r #0-eznobu-seq26,
+#X floatatom 309 307 5 0 0 0 - #0-eznobu-seq26_r #0-eznobu-seq26,
 f 5;
-#X floatatom 431 296 5 0 0 0 - #0-eznobu-seq29_r #0-eznobu-seq29,
+#X floatatom 431 307 5 0 0 0 - #0-eznobu-seq29_r #0-eznobu-seq29,
 f 5;
-#X floatatom 390 296 5 0 0 0 - #0-eznobu-seq28_r #0-eznobu-seq28,
+#X floatatom 390 307 5 0 0 0 - #0-eznobu-seq28_r #0-eznobu-seq28,
 f 5;
-#X floatatom 513 296 5 0 0 0 - #0-eznobu-seq31_r #0-eznobu-seq31,
+#X floatatom 513 307 5 0 0 0 - #0-eznobu-seq31_r #0-eznobu-seq31,
 f 5;
-#X floatatom 472 296 5 0 0 0 - #0-eznobu-seq30_r #0-eznobu-seq30,
+#X floatatom 472 307 5 0 0 0 - #0-eznobu-seq30_r #0-eznobu-seq30,
 f 5;
-#X floatatom 646 230 10 0 1e+30 0 - #0-eznobu-loc1_r #0-eznobu-loc1
+#X floatatom 656 241 10 0 1e+30 0 - #0-eznobu-loc1_r #0-eznobu-loc1
 , f 10;
-#X floatatom 570 230 10 0 1e+30 0 - #0-eznobu-loc0_r #0-eznobu-loc0
+#X floatatom 580 241 10 0 1e+30 0 - #0-eznobu-loc0_r #0-eznobu-loc0
 , f 10;
-#X floatatom 799 230 10 0 1e+30 0 - #0-eznobu-loc3_r #0-eznobu-loc3
+#X floatatom 809 241 10 0 1e+30 0 - #0-eznobu-loc3_r #0-eznobu-loc3
 , f 10;
-#X floatatom 723 230 10 0 1e+30 0 - #0-eznobu-loc2_r #0-eznobu-loc2
+#X floatatom 733 241 10 0 1e+30 0 - #0-eznobu-loc2_r #0-eznobu-loc2
 , f 10;
-#X floatatom 646 253 10 0 1e+30 0 - #0-eznobu-loc5_r #0-eznobu-loc5
+#X floatatom 656 264 10 0 1e+30 0 - #0-eznobu-loc5_r #0-eznobu-loc5
 , f 10;
-#X floatatom 570 253 10 0 1e+30 0 - #0-eznobu-loc4_r #0-eznobu-loc4
+#X floatatom 580 264 10 0 1e+30 0 - #0-eznobu-loc4_r #0-eznobu-loc4
 , f 10;
-#X floatatom 799 253 10 0 1e+30 0 - #0-eznobu-loc7_r #0-eznobu-loc7
+#X floatatom 809 264 10 0 1e+30 0 - #0-eznobu-loc7_r #0-eznobu-loc7
 , f 10;
-#X floatatom 723 253 10 0 1e+30 0 - #0-eznobu-loc6_r #0-eznobu-loc6
+#X floatatom 733 264 10 0 1e+30 0 - #0-eznobu-loc6_r #0-eznobu-loc6
 , f 10;
-#X floatatom 646 276 10 0 1e+30 0 - #0-eznobu-loc9_r #0-eznobu-loc9
+#X floatatom 656 287 10 0 1e+30 0 - #0-eznobu-loc9_r #0-eznobu-loc9
 , f 10;
-#X floatatom 570 276 10 0 1e+30 0 - #0-eznobu-loc8_r #0-eznobu-loc8
+#X floatatom 580 287 10 0 1e+30 0 - #0-eznobu-loc8_r #0-eznobu-loc8
 , f 10;
-#X floatatom 799 276 10 0 1e+30 0 - #0-eznobu-loc11_r #0-eznobu-loc11
+#X floatatom 809 287 10 0 1e+30 0 - #0-eznobu-loc11_r #0-eznobu-loc11
 , f 10;
-#X floatatom 723 276 10 0 1e+30 0 - #0-eznobu-loc10_r #0-eznobu-loc10
+#X floatatom 733 287 10 0 1e+30 0 - #0-eznobu-loc10_r #0-eznobu-loc10
 , f 10;
-#X floatatom 646 298 10 0 1e+30 0 - #0-eznobu-loc13_r #0-eznobu-loc13
+#X floatatom 656 309 10 0 1e+30 0 - #0-eznobu-loc13_r #0-eznobu-loc13
 , f 10;
-#X floatatom 570 298 10 0 1e+30 0 - #0-eznobu-loc12_r #0-eznobu-loc12
+#X floatatom 580 309 10 0 1e+30 0 - #0-eznobu-loc12_r #0-eznobu-loc12
 , f 10;
-#X floatatom 799 298 10 0 1e+30 0 - #0-eznobu-loc15_r #0-eznobu-loc15
+#X floatatom 809 309 10 0 1e+30 0 - #0-eznobu-loc15_r #0-eznobu-loc15
 , f 10;
-#X floatatom 723 298 10 0 1e+30 0 - #0-eznobu-loc14_r #0-eznobu-loc14
+#X floatatom 733 309 10 0 1e+30 0 - #0-eznobu-loc14_r #0-eznobu-loc14
 , f 10;
-#X text 207 251 8;
-#X text 202 274 16;
-#X text 201 297 24;
+#X text 207 262 8;
+#X text 202 285 16;
+#X text 201 308 24;
 #X obj 185 708 pdkvabs/dknobu~ \$1 \$0-dkeznobu_loc 125;
 #X obj 203 14 inlet;
 #N canvas 737 323 1202 894 eznobu_locstuff 0;
@@ -287,7 +287,7 @@ f 5;
 #X connect 33 0 4 0;
 #X connect 34 0 21 0;
 #X restore 199 395 pd eznobu_locstuff;
-#N canvas 414 414 1246 784 eznobu_seqstuff 0;
+#N canvas 523 488 1791 877 eznobu_seqstuff 0;
 #X obj 47 68 array define \$0-dkeznobu_seq 32;
 #N canvas 503 163 1808 762 eznobu_seqrcv 0;
 #X obj 73 738 outlet;
@@ -525,23 +525,72 @@ f 5;
 #X obj 294 174 t f f, f 13;
 #X obj 294 257 list store, f 25;
 #X obj 296 337 s;
-#X obj 629 55 loadbang;
-#X msg 629 79 32;
-#X obj 629 103 pdkvabs/dkfor;
-#X obj 630 242 s;
-#X obj 628 152 t b f, f 13;
-#X text 700 53 init;
-#X obj 708 185 makefilename \$0-eznobu-seq%d_r;
+#X obj 635 22 loadbang;
+#X msg 629 129 32;
+#X obj 629 153 pdkvabs/dkfor;
+#X obj 632 344 s;
+#X obj 630 254 t b f, f 13;
+#X obj 710 287 makefilename \$0-eznobu-seq%d_r;
 #X obj 387 299 makefilename \$0-eznobu-seq%d_r;
-#X msg 377 550 32;
-#X obj 377 574 pdkvabs/dkfor;
-#X obj 373 748 s;
-#X obj 373 624 t b f, f 13;
-#X obj 449 689 makefilename \$0-eznobu-seq%d_r;
-#X obj 373 648 random 16;
-#X text 534 523 randomize;
+#X msg 365 376 32;
+#X obj 365 400 pdkvabs/dkfor;
+#X obj 352 754 s;
+#X obj 361 450 t b f, f 13;
+#X obj 472 708 makefilename \$0-eznobu-seq%d_r;
+#X obj 356 491 random 16;
+#X text 512 368 randomize;
 #X obj 309 40 r \$0-eznobu_seq_list;
-#X obj 377 526 r \$0-eznobu_seq_rnd;
+#X obj 365 352 r \$0-eznobu_seq_rnd;
+#X text 717 21 init/clear;
+#X obj 630 278 f;
+#X obj 632 102 t b f;
+#X msg 635 66 -2;
+#X obj 722 41 r \$0-eznobu_clear;
+#X obj 1249 51 r \$0-eznobu_seq_const;
+#X obj 356 515 t f b;
+#X obj 386 537 random 101;
+#X obj 386 590 < 0;
+#X obj 386 614 sel 0 1;
+#X text 455 613 1 = add stut;
+#X msg 382 653 0;
+#X obj 368 689 + 0;
+#X obj 768 346 r \$0-ezvabs_rnd_stut;
+#X msg 768 370 32;
+#X obj 768 394 pdkvabs/dkfor;
+#X obj 919 520 random 101;
+#X obj 919 573 < 0;
+#X obj 919 597 sel 0 1;
+#X text 988 596 1 = add stut;
+#X msg 915 636 0;
+#X obj 786 698 + 0, f 10;
+#X obj 772 521 pdkvabs/dkfloor;
+#X obj 765 466 tabread \$0-dkeznobu_seq;
+#X obj 765 490 t f b;
+#X text 951 350 randomly add/clear stut;
+#X obj 768 418 t f f, f 15;
+#X obj 782 795 s;
+#X obj 884 738 makefilename \$0-eznobu-seq%d_r;
+#X obj 452 563 r \$0-eznobu_rnd_stut_ch;
+#X obj 985 546 r \$0-eznobu_rnd_stut_ch;
+#X obj 425 654 pdkvabs/dkrrand 0 1;
+#X obj 958 637 pdkvabs/dkrrand 0 1;
+#X msg 1237 185 32;
+#X obj 1237 209 pdkvabs/dkfor;
+#X obj 1253 675 s;
+#X obj 1238 310 t b f, f 31;
+#X obj 1470 634 makefilename \$0-eznobu-seq%d_r;
+#X obj 1238 334 f;
+#X obj 1240 158 t b f;
+#X text 1325 77 seq_const;
+#X obj 1238 358 t f b;
+#X obj 1305 412 random 101;
+#X obj 1305 465 < 0;
+#X obj 1305 489 sel 0 1;
+#X text 1374 488 1 = add stut;
+#X msg 1301 528 0;
+#X obj 1230 597 + 0, f 10;
+#X obj 1371 438 r \$0-eznobu_rnd_stut_ch;
+#X obj 1344 529 pdkvabs/dkrrand 0 1;
 #X connect 1 0 2 0;
 #X connect 1 1 2 1;
 #X connect 3 0 5 0;
@@ -550,23 +599,75 @@ f 5;
 #X connect 5 0 7 0;
 #X connect 6 0 8 0;
 #X connect 7 0 6 0;
-#X connect 7 1 17 0;
+#X connect 7 1 16 0;
 #X connect 8 0 9 0;
-#X connect 10 0 11 0;
+#X connect 10 0 29 0;
 #X connect 11 0 12 0;
 #X connect 12 0 14 0;
-#X connect 14 0 13 0;
-#X connect 14 1 16 0;
-#X connect 16 0 13 1;
-#X connect 17 0 9 1;
-#X connect 18 0 19 0;
-#X connect 19 0 21 0;
-#X connect 21 0 23 0;
-#X connect 21 1 22 0;
-#X connect 22 0 20 1;
-#X connect 23 0 20 0;
-#X connect 25 0 4 0;
-#X connect 26 0 18 0;
+#X connect 14 0 27 0;
+#X connect 14 1 15 0;
+#X connect 15 0 13 1;
+#X connect 16 0 9 1;
+#X connect 17 0 18 0;
+#X connect 18 0 20 0;
+#X connect 20 0 22 0;
+#X connect 20 1 21 0;
+#X connect 21 0 19 1;
+#X connect 22 0 32 0;
+#X connect 24 0 4 0;
+#X connect 25 0 17 0;
+#X connect 27 0 13 0;
+#X connect 28 0 11 0;
+#X connect 28 1 27 1;
+#X connect 29 0 28 0;
+#X connect 30 0 29 0;
+#X connect 31 0 65 0;
+#X connect 32 0 38 0;
+#X connect 32 1 33 0;
+#X connect 33 0 34 0;
+#X connect 34 0 35 0;
+#X connect 35 0 37 0;
+#X connect 35 1 57 0;
+#X connect 37 0 38 1;
+#X connect 38 0 19 0;
+#X connect 39 0 40 0;
+#X connect 40 0 41 0;
+#X connect 41 0 52 0;
+#X connect 42 0 43 0;
+#X connect 43 0 44 0;
+#X connect 44 0 46 0;
+#X connect 44 1 58 0;
+#X connect 46 0 47 1;
+#X connect 47 0 53 0;
+#X connect 48 0 47 0;
+#X connect 49 0 50 0;
+#X connect 50 0 48 0;
+#X connect 50 1 42 0;
+#X connect 52 0 49 0;
+#X connect 52 1 54 0;
+#X connect 54 0 53 1;
+#X connect 55 0 34 1;
+#X connect 56 0 43 1;
+#X connect 57 0 38 1;
+#X connect 58 0 47 1;
+#X connect 59 0 60 0;
+#X connect 60 0 62 0;
+#X connect 62 0 64 0;
+#X connect 62 1 63 0;
+#X connect 63 0 61 1;
+#X connect 64 0 67 0;
+#X connect 65 0 59 0;
+#X connect 65 1 64 1;
+#X connect 67 0 73 0;
+#X connect 67 1 68 0;
+#X connect 68 0 69 0;
+#X connect 69 0 70 0;
+#X connect 70 0 72 0;
+#X connect 70 1 75 0;
+#X connect 72 0 73 1;
+#X connect 73 0 61 0;
+#X connect 74 0 69 1;
+#X connect 75 0 73 1;
 #X restore 198 363 pd eznobu_seqstuff;
 #N canvas 820 499 1177 798 eznobu-dynamicpatcher 0;
 #X obj 386 404 pack f f f 100 130 160 f f f;
@@ -604,22 +705,17 @@ f 5;
 #X connect 8 0 9 0;
 #X connect 10 0 3 0;
 #X connect 10 0 3 0;
-#X restore 206 425 pd eznobu-dynamicpatcher;
-#X obj 206 176 s \$0-eznobu_seqlist;
-#X obj 233 153 s \$0-eznobu_loclist;
-#X obj 264 126 s \$0-eznobu_absrel_r;
-#X obj 328 100 s \$0-eznobu_count;
-#X obj 394 78 s \$0-eznobu_dur_r;
-#X obj 111 607 tabread \$0-dkeznobu_seq;
-#X obj 113 577 r \$0-eznobu_count;
-#X floatatom 476 207 5 0 1e+20 0 dur #0-eznobu_dur_r #0-eznobu_dur
+#X restore 197 425 pd eznobu-dynamicpatcher;
+#X obj 159 624 tabread \$0-dkeznobu_seq;
+#X obj 91 479 r \$0-eznobu_count;
+#X floatatom 322 221 5 0 1e+20 0 dur #0-eznobu_dur_r #0-eznobu_dur
 , f 5;
 #X obj 386 616 r \$0-eznobu_dur;
 #X obj 182 760 outlet~;
 #X obj 520 617 r \$0-eznobu_array;
 #X msg 386 640 dur \$1;
 #X msg 520 641 set \$1;
-#X obj 654 210 tgl 15 0 \$0-eznobu_absrel \$0-eznobu_absrel_r abs/rel
+#X obj 671 223 tgl 15 0 \$0-eznobu_absrel \$0-eznobu_absrel_r absrel
 17 7 0 12 -262144 -1 -1 1 1;
 #X obj 516 520 r \$0-eznobu_absrel;
 #X msg 516 544 absrel \$1;
@@ -640,76 +736,130 @@ f 5;
 #X connect 3 1 5 0;
 #X connect 4 0 5 0;
 #X connect 6 0 7 0;
-#X restore 227 507 pd eznobu_argts;
-#X obj 519 77 s \$0-eznobu_array;
-#X text 555 251 4;
-#X text 555 272 8;
-#X text 549 296 12;
+#X restore 198 454 pd eznobu_argts;
+#X text 564 262 4;
+#X text 564 283 8;
+#X text 558 307 12;
 #X obj 332 583 r \$0-eznobu_loc;
-#X obj 681 92 s \$0-eznobu_loc;
-#X msg 681 68 -2;
 #N canvas 177 532 1011 589 eznobu_dump 0;
 #X obj 55 224 array get \$0-dkeznobu_seq;
 #X obj 262 232 array get \$0-dkeznobu_loc;
 #X msg 260 154 bang;
 #X msg 45 161 bang;
-#X obj 55 248 list prepend seq;
 #X obj 55 272 list trim;
-#X obj 262 256 list prepend loc;
 #X obj 262 280 list trim;
 #X obj 55 334 outlet;
 #X obj 260 130 r \$0-eznobu_loc_dump;
 #X obj 45 137 r \$0-eznobu_seq_dump;
-#X connect 0 0 4 0;
-#X connect 1 0 6 0;
+#X obj 55 248 list prepend seq_list;
+#X obj 262 256 list prepend loc_list;
+#X connect 0 0 9 0;
+#X connect 1 0 10 0;
 #X connect 2 0 1 0;
 #X connect 3 0 0 0;
-#X connect 4 0 5 0;
-#X connect 5 0 8 0;
-#X connect 6 0 7 0;
-#X connect 7 0 8 0;
-#X connect 9 0 2 0;
-#X connect 10 0 3 0;
+#X connect 4 0 6 0;
+#X connect 5 0 6 0;
+#X connect 7 0 2 0;
+#X connect 8 0 3 0;
+#X connect 9 0 4 0;
+#X connect 10 0 5 0;
 #X restore 747 685 pd eznobu_dump;
 #X obj 747 722 outlet;
 #X text 804 722 dump;
-#X obj 584 210 bng 15 250 50 0 \$0-eznobu_loc_rnd empty loc_rnd 17
+#X obj 604 223 bng 15 250 50 0 \$0-eznobu_loc_rnd empty loc_rnd 17
 7 0 12 -262144 -1 -1;
-#X obj 516 210 bng 15 250 50 0 \$0-eznobu_seq_rnd empty seq_rnd 17
+#X obj 535 223 bng 15 250 50 0 \$0-eznobu_seq_rnd empty seq_rnd 17
 7 0 12 -262144 -1 -1;
-#X obj 807 97 s \$0-eznobu_seq_dump;
-#X obj 865 174 s \$0-eznobu_loc_dump;
-#X obj 203 38 route seq_list loc_list absrel float dur set loc off
-seq_dump loc_dump seq_rnd loc_rnd, f 126;
-#X obj 1009 94 s \$0-eznobu_loc_rnd;
-#X obj 932 136 s \$0-eznobu_seq_rnd;
-#X obj 797 210 bng 15 250 50 0 \$0-eznobu_loc_dump empty loc_dump 17
+#X obj 809 223 bng 15 250 50 0 \$0-eznobu_loc_dump empty loc_dump 17
 7 0 12 -262144 -1 -1;
-#X obj 722 210 bng 15 250 50 0 \$0-eznobu_seq_dump empty seq_dump 17
+#X obj 734 223 bng 15 250 50 0 \$0-eznobu_seq_dump empty seq_dump 17
 7 0 12 -262144 -1 -1;
-#X connect 51 0 65 0;
-#X connect 52 0 87 0;
-#X connect 61 0 51 0;
-#X connect 62 0 61 0;
-#X connect 64 0 67 0;
-#X connect 66 0 68 0;
-#X connect 67 0 51 1;
-#X connect 68 0 51 1;
-#X connect 70 0 71 0;
-#X connect 71 0 51 1;
-#X connect 77 0 51 0;
-#X connect 79 0 78 0;
-#X connect 80 0 81 0;
-#X connect 87 0 56 0;
-#X connect 87 1 57 0;
-#X connect 87 2 58 0;
-#X connect 87 3 59 0;
-#X connect 87 4 60 0;
-#X connect 87 5 73 0;
-#X connect 87 6 78 0;
-#X connect 87 7 79 0;
-#X connect 87 8 85 0;
-#X connect 87 9 86 0;
-#X connect 87 10 89 0;
-#X connect 87 11 88 0;
-#X coords 0 -1 1 1 675 120 1 200 200;
+#N canvas 455 187 1366 786 eznobu_msgroute 0;
+#X obj 240 3 inlet;
+#X obj 264 126 s \$0-eznobu_absrel_r;
+#X obj 323 242 s \$0-eznobu_count;
+#X obj 362 205 s \$0-eznobu_dur_r;
+#X obj 415 166 s \$0-eznobu_array;
+#X obj 501 130 s \$0-eznobu_loc;
+#X msg 501 106 -2;
+#X obj 546 325 s \$0-eznobu_seq_dump;
+#X obj 602 292 s \$0-eznobu_loc_dump;
+#X obj 749 224 s \$0-eznobu_loc_rnd;
+#X obj 685 254 s \$0-eznobu_seq_rnd;
+#X obj 233 153 s \$0-eznobu_loc_list;
+#X obj 206 176 s \$0-eznobu_seq_list;
+#X obj 808 187 s \$0-eznobu_clear_r;
+#X msg 821 146 bang;
+#X obj 872 145 s \$0-eznobu_seq_const_r;
+#X obj 940 113 s \$0-eznobu_rnd_stut_ch_r;
+#X obj 239 33 route seq_list loc_list absrel float dur set loc off
+seq_dump loc_dump seq_rnd loc_rnd clear seq_const rnd_stut_ch rnd_stut
+, f 126;
+#X obj 1005 89 s \$0-ezvabs_rnd_stut;
+#X connect 0 0 17 0;
+#X connect 6 0 5 0;
+#X connect 14 0 13 0;
+#X connect 17 0 12 0;
+#X connect 17 1 11 0;
+#X connect 17 2 1 0;
+#X connect 17 3 2 0;
+#X connect 17 4 3 0;
+#X connect 17 5 4 0;
+#X connect 17 6 5 0;
+#X connect 17 7 6 0;
+#X connect 17 8 7 0;
+#X connect 17 9 8 0;
+#X connect 17 10 10 0;
+#X connect 17 11 9 0;
+#X connect 17 12 14 0;
+#X connect 17 13 15 0;
+#X connect 17 14 16 0;
+#X connect 17 15 18 0;
+#X restore 203 59 pd eznobu_msgroute;
+#X text 458 29 args: array \, dur (for skipping) \, abs/rel;
+#X floatatom 427 221 5 0 15 0 seq_const #0-eznobu_seq_const_r #0-eznobu_seq_const
+, f 5;
+#X text 265 110 -2: silence \, [-1 \, 0): no skip;
+#X text 274 130 ints 0-15: location;
+#X text 266 148 any decimals: stutter x(1/dec) per dur;
+#X text 200 241 seq;
+#X text 551 242 loc;
+#X obj 475 223 bng 15 250 50 0 \$0-eznobu_clear \$0-eznobu_clear_r
+clear 17 7 0 12 -262144 -1 -1;
+#X obj 82 590 del;
+#X obj 85 532 v \$0-eznobu_dur;
+#X obj 91 503 t b f b, f 21;
+#X msg 237 536 stop;
+#X msg 82 614 -2;
+#X floatatom 758 202 5 0 100 0 rnd_stut_ch #0-eznobu_rnd_stut_ch_r
+#0-eznobu_rnd_stut_ch, f 5;
+#X obj 807 202 bng 15 250 50 0 \$0-ezvabs_rnd_stut \$0-ezvabs_rnd_stut_r
+rnd_stut 17 7 0 12 -262144 -1 -1;
+#X text 692 130 seq_rnd randomizes seq locations;
+#X text 692 151 rnd_stut randomly adds stutter to seq locations;
+#X text 747 645 dumped with selectors seq_list and loc_list;
+#X text 1083 24 derek kwan;
+#X text 1082 53 pdkez 2018;
+#X text 1088 82 gpl v 3;
+#X text 682 103 rnd_stut_ch applies with seq_rnd and rnd_stut and seq_const
+;
+#X connect 51 0 60 0;
+#X connect 52 0 79 0;
+#X connect 56 0 51 0;
+#X connect 57 0 90 0;
+#X connect 59 0 62 0;
+#X connect 61 0 63 0;
+#X connect 62 0 51 1;
+#X connect 63 0 51 1;
+#X connect 65 0 66 0;
+#X connect 66 0 51 1;
+#X connect 71 0 51 0;
+#X connect 72 0 73 0;
+#X connect 88 0 92 0;
+#X connect 89 0 88 0;
+#X connect 90 0 89 0;
+#X connect 90 1 56 0;
+#X connect 90 2 91 0;
+#X connect 91 0 88 0;
+#X connect 92 0 51 0;
+#X coords 0 -1 1 1 685 130 1 200 200;

@@ -1,72 +1,72 @@
 #N canvas 761 271 1297 937 12;
-#X obj 291 265 nbx 5 14 0 1 0 0 \$0-ezseq1 \$0-ezseq1_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 225 264 nbx 5 14 0 1 0 0 \$0-ezseq0 \$0-ezseq0_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 422 267 nbx 5 14 0 1 0 0 \$0-ezseq3 \$0-ezseq3_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 357 266 nbx 5 14 0 1 0 0 \$0-ezseq2 \$0-ezseq2_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 553 267 nbx 5 14 0 1 0 0 \$0-ezseq5 \$0-ezseq5_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 488 267 nbx 5 14 0 1 0 0 \$0-ezseq4 \$0-ezseq4_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 685 268 nbx 5 14 0 1 0 0 \$0-ezseq7 \$0-ezseq7_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 619 268 nbx 5 14 0 1 0 0 \$0-ezseq6 \$0-ezseq6_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 291 287 nbx 5 14 0 1 0 0 \$0-ezseq9 \$0-ezseq9_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 225 286 nbx 5 14 0 1 0 0 \$0-ezseq8 \$0-ezseq8_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 422 289 nbx 5 14 0 1 0 0 \$0-ezseq10 \$0-ezseq10_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 357 288 nbx 5 14 0 1 0 0 \$0-ezseq11 \$0-ezseq11_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 553 289 nbx 5 14 0 1 0 0 \$0-ezseq13 \$0-ezseq13_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 488 289 nbx 5 14 0 1 0 0 \$0-ezseq12 \$0-ezseq12_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 685 290 nbx 5 14 0 1 0 0 \$0-ezseq15 \$0-ezseq15_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 619 290 nbx 5 14 0 1 0 0 \$0-ezseq14 \$0-ezseq14_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 291 309 nbx 5 14 0 1 0 0 \$0-ezseq17 \$0-ezseq17_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 225 308 nbx 5 14 0 1 0 0 \$0-ezseq16 \$0-ezseq16_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 422 311 nbx 5 14 0 1 0 0 \$0-ezseq19 \$0-ezseq19_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 357 310 nbx 5 14 0 1 0 0 \$0-ezseq18 \$0-ezseq18_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 553 311 nbx 5 14 0 1 0 0 \$0-ezseq21 \$0-ezseq21_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 488 311 nbx 5 14 0 1 0 0 \$0-ezseq20 \$0-ezseq20_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 685 312 nbx 5 14 0 1 0 0 \$0-ezseq23 \$0-ezseq23_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 619 312 nbx 5 14 0 1 0 0 \$0-ezseq22 \$0-ezseq22_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 291 330 nbx 5 14 0 1 0 0 \$0-ezseq25 \$0-ezseq25_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 225 329 nbx 5 14 0 1 0 0 \$0-ezseq24 \$0-ezseq24_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 422 332 nbx 5 14 0 1 0 0 \$0-ezseq27 \$0-ezseq27_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 357 331 nbx 5 14 0 1 0 0 \$0-ezseq26 \$0-ezseq26_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 553 332 nbx 5 14 0 1 0 0 \$0-ezseq29 \$0-ezseq29_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 488 332 nbx 5 14 0 1 0 0 \$0-ezseq28 \$0-ezseq28_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 685 333 nbx 5 14 0 1 0 0 \$0-ezseq31 \$0-ezseq31_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
-#X obj 619 333 nbx 5 14 0 1 0 0 \$0-ezseq30 \$0-ezseq30_r empty 0 -8
-0 12 -262144 -1 -166441 0 256;
+#X obj 291 265 nbx 5 14 0 23 0 0 \$0-ezseq1 \$0-ezseq1_r empty 0 -8
+0 12 -262144 -1 -166441 1 256;
+#X obj 225 264 nbx 5 14 0 23 0 0 \$0-ezseq0 \$0-ezseq0_r empty 0 -8
+0 12 -262144 -1 -166441 10 256;
+#X obj 422 267 nbx 5 14 0 23 0 0 \$0-ezseq3 \$0-ezseq3_r empty 0 -8
+0 12 -262144 -1 -166441 7 256;
+#X obj 357 266 nbx 5 14 0 23 0 0 \$0-ezseq2 \$0-ezseq2_r empty 0 -8
+0 12 -262144 -1 -166441 3 256;
+#X obj 553 267 nbx 5 14 0 23 0 0 \$0-ezseq5 \$0-ezseq5_r empty 0 -8
+0 12 -262144 -1 -166441 4 256;
+#X obj 488 267 nbx 5 14 0 23 0 0 \$0-ezseq4 \$0-ezseq4_r empty 0 -8
+0 12 -262144 -1 -166441 7 256;
+#X obj 685 268 nbx 5 14 0 23 0 0 \$0-ezseq7 \$0-ezseq7_r empty 0 -8
+0 12 -262144 -1 -166441 3 256;
+#X obj 619 268 nbx 5 14 0 23 0 0 \$0-ezseq6 \$0-ezseq6_r empty 0 -8
+0 12 -262144 -1 -166441 20 256;
+#X obj 291 287 nbx 5 14 0 23 0 0 \$0-ezseq9 \$0-ezseq9_r empty 0 -8
+0 12 -262144 -1 -166441 6 256;
+#X obj 225 286 nbx 5 14 0 23 0 0 \$0-ezseq8 \$0-ezseq8_r empty 0 -8
+0 12 -262144 -1 -166441 3 256;
+#X obj 422 289 nbx 5 14 0 23 0 0 \$0-ezseq10 \$0-ezseq10_r empty 0
+-8 0 12 -262144 -1 -166441 11 256;
+#X obj 357 288 nbx 5 14 0 23 0 0 \$0-ezseq11 \$0-ezseq11_r empty 0
+-8 0 12 -262144 -1 -166441 17 256;
+#X obj 553 289 nbx 5 14 0 23 0 0 \$0-ezseq13 \$0-ezseq13_r empty 0
+-8 0 12 -262144 -1 -166441 8 256;
+#X obj 488 289 nbx 5 14 0 23 0 0 \$0-ezseq12 \$0-ezseq12_r empty 0
+-8 0 12 -262144 -1 -166441 11 256;
+#X obj 685 290 nbx 5 14 0 23 0 0 \$0-ezseq15 \$0-ezseq15_r empty 0
+-8 0 12 -262144 -1 -166441 2 256;
+#X obj 619 290 nbx 5 14 0 23 0 0 \$0-ezseq14 \$0-ezseq14_r empty 0
+-8 0 12 -262144 -1 -166441 9 256;
+#X obj 291 309 nbx 5 14 0 23 0 0 \$0-ezseq17 \$0-ezseq17_r empty 0
+-8 0 12 -262144 -1 -166441 21 256;
+#X obj 225 308 nbx 5 14 0 23 0 0 \$0-ezseq16 \$0-ezseq16_r empty 0
+-8 0 12 -262144 -1 -166441 23 256;
+#X obj 422 311 nbx 5 14 0 23 0 0 \$0-ezseq19 \$0-ezseq19_r empty 0
+-8 0 12 -262144 -1 -166441 17 256;
+#X obj 357 310 nbx 5 14 0 23 0 0 \$0-ezseq18 \$0-ezseq18_r empty 0
+-8 0 12 -262144 -1 -166441 0 256;
+#X obj 553 311 nbx 5 14 0 23 0 0 \$0-ezseq21 \$0-ezseq21_r empty 0
+-8 0 12 -262144 -1 -166441 9 256;
+#X obj 488 311 nbx 5 14 0 23 0 0 \$0-ezseq20 \$0-ezseq20_r empty 0
+-8 0 12 -262144 -1 -166441 16 256;
+#X obj 685 312 nbx 5 14 0 23 0 0 \$0-ezseq23 \$0-ezseq23_r empty 0
+-8 0 12 -262144 -1 -166441 22 256;
+#X obj 619 312 nbx 5 14 0 23 0 0 \$0-ezseq22 \$0-ezseq22_r empty 0
+-8 0 12 -262144 -1 -166441 23 256;
+#X obj 291 330 nbx 5 14 0 23 0 0 \$0-ezseq25 \$0-ezseq25_r empty 0
+-8 0 12 -262144 -1 -166441 0 256;
+#X obj 225 329 nbx 5 14 0 23 0 0 \$0-ezseq24 \$0-ezseq24_r empty 0
+-8 0 12 -262144 -1 -166441 18 256;
+#X obj 422 332 nbx 5 14 0 23 0 0 \$0-ezseq27 \$0-ezseq27_r empty 0
+-8 0 12 -262144 -1 -166441 4 256;
+#X obj 357 331 nbx 5 14 0 23 0 0 \$0-ezseq26 \$0-ezseq26_r empty 0
+-8 0 12 -262144 -1 -166441 1 256;
+#X obj 553 332 nbx 5 14 0 23 0 0 \$0-ezseq29 \$0-ezseq29_r empty 0
+-8 0 12 -262144 -1 -166441 14 256;
+#X obj 488 332 nbx 5 14 0 23 0 0 \$0-ezseq28 \$0-ezseq28_r empty 0
+-8 0 12 -262144 -1 -166441 19 256;
+#X obj 685 333 nbx 5 14 0 23 0 0 \$0-ezseq31 \$0-ezseq31_r empty 0
+-8 0 12 -262144 -1 -166441 22 256;
+#X obj 619 333 nbx 5 14 0 23 0 0 \$0-ezseq30 \$0-ezseq30_r empty 0
+-8 0 12 -262144 -1 -166441 1 256;
 #X text 207 282 8;
 #X text 202 305 16;
 #X text 201 328 24;
-#N canvas 227 467 1791 877 ezseqstuff 0;
+#N canvas 605 222 1791 877 ezseqstuff 0;
 #X obj 47 68 array define \$0-dkezseq 32;
 #N canvas 503 163 1808 762 ezseqrcv 0;
 #X obj 73 738 outlet;
@@ -432,7 +432,7 @@
 #X obj 143 611 s \$0-ezseq-rcl_num_r;
 #X obj 152 441 - 1;
 #X obj 220 352 loadbang;
-#X msg 220 376 0;
+#X msg 233 388 0;
 #X obj 152 465 max 0;
 #X obj 444 107 r \$0-ezseq-rcl_trig;
 #X obj 145 151 array get \$0-dkezseq 0 -1;
@@ -447,6 +447,10 @@
 #X obj 298 40 r \$0-ezseq-save_num;
 #X obj 217 481 s \$0-ezseq-save_num_r;
 #X obj 497 251 s \$0-ezseq-list;
+#X obj 428 353 r \$0-ezseq-pre_clear;
+#X msg 462 458 -1;
+#X obj 462 482 text delete \$0-ezseq_pretxt;
+#X obj 428 377 t b b;
 #X connect 1 0 2 0;
 #X connect 1 1 0 0;
 #X connect 2 0 3 0;
@@ -467,6 +471,10 @@
 #X connect 19 0 0 1;
 #X connect 20 0 12 0;
 #X connect 21 0 0 1;
+#X connect 24 0 27 0;
+#X connect 25 0 26 0;
+#X connect 27 0 9 0;
+#X connect 27 1 25 0;
 #X restore 71 471 pd ezseq_savercl;
 #N canvas 948 158 859 603 ezseq-rngset 0;
 #X obj 52 248 pdkvabs/dkfor;
@@ -521,27 +529,27 @@
 17 7 0 12 -262144 -1 -1;
 #X floatatom 207 225 5 0 100 1 rnd_ch #0-ezseq-rnd_ch_r #0-ezseq-rnd_ch
 , f 5;
-#X obj 208 248 nbx 2 14 0 0 0 0 \$0-ezseq-save_num \$0-ezseq-save_num_r
-save 32 7 0 12 -262144 -1 -1 0 256;
+#X obj 208 248 nbx 2 14 0 6 0 0 \$0-ezseq-save_num \$0-ezseq-save_num_r
+save 32 7 0 12 -262144 -1 -1 5 256;
 #X obj 271 247 bng 15 250 50 0 \$0-ezseq-save_trig \$0-ezseq-save_trig_r
 save 17 7 0 12 -262144 -1 -1;
-#X obj 320 247 nbx 2 14 0 0 0 0 \$0-ezseq-rcl_num \$0-ezseq-rcl_num_r
+#X obj 320 247 nbx 2 14 0 5 0 0 \$0-ezseq-rcl_num \$0-ezseq-rcl_num_r
 rcl 32 7 0 12 -262144 -1 -1 0 256;
-#X obj 377 245 bng 15 250 50 0 \$0-ezseq-rcl_trig \$0-ezseq-rcl_trig_r
+#X obj 377 247 bng 15 250 50 0 \$0-ezseq-rcl_trig \$0-ezseq-rcl_trig_r
 rcl 17 7 0 12 -262144 -1 -1;
-#X obj 459 248 bng 15 250 50 0 \$0-ezseq-pre_load \$0-ezseq-pre_load_r
+#X obj 449 248 bng 15 250 50 0 \$0-ezseq-pre_load \$0-ezseq-pre_load_r
 pre_load 17 7 0 12 -262144 -1 -1;
-#X obj 460 228 bng 15 250 50 0 \$0-ezseq-pre_save \$0-ezseq-pre_save_r
+#X obj 450 228 bng 15 250 50 0 \$0-ezseq-pre_save \$0-ezseq-pre_save_r
 pre_save 17 7 0 12 -262144 -1 -1;
 #X obj 340 227 tgl 15 0 \$0-ezseq-rnd_floor \$0-ezseq-rnd_floor_r floor
 17 7 0 12 -262144 -1 -1 1 1;
-#X floatatom 538 246 5 0 0 1 range_hi #0-ezseq-range_hi_r #0-ezseq-range_hi
+#X floatatom 647 225 5 0 0 1 range_hi #0-ezseq-range_hi_r #0-ezseq-range_hi
 , f 5;
-#X floatatom 538 225 5 0 0 1 range_lo #0-ezseq-range_lo_r #0-ezseq-range_lo
+#X floatatom 540 224 5 0 0 1 range_lo #0-ezseq-range_lo_r #0-ezseq-range_lo
 , f 5;
 #X obj 353 44 inlet;
-#X obj 747 722 outlet;
-#X text 804 722 dump;
+#X obj 464 532 outlet;
+#X text 521 532 dump;
 #N canvas 177 532 1011 589 ezseq-dumper 0;
 #X msg 45 161 bang;
 #X obj 55 334 outlet;
@@ -550,16 +558,14 @@ pre_save 17 7 0 12 -262144 -1 -1;
 #X connect 0 0 3 0;
 #X connect 2 0 0 0;
 #X connect 3 0 1 0;
-#X restore 747 685 pd ezseq-dumper;
-#X obj 198 490 r \$0-ezseq-count;
+#X restore 464 495 pd ezseq-dumper;
+#X obj 205 481 r \$0-ezseq-count;
 #X obj 220 551 tabread \$0-dkezseq;
 #X obj 220 575 outlet;
-#X text 637 76 args:range_lo \, range_hi;
 #N canvas 209 416 1366 786 ezseq-msgroute 0;
 #X obj 240 3 inlet;
 #X obj 199 457 t b f;
 #X obj 280 498 t b f;
-#X obj 192 410 route save rcl preset_save preset_load;
 #X obj 146 618 s \$0-ezseq-save_trig_r;
 #X obj 210 562 s \$0-ezseq-save_num_r;
 #X obj 240 692 s \$0-ezseq-rcl_trig_r;
@@ -572,32 +578,38 @@ pre_save 17 7 0 12 -262144 -1 -1;
 #X obj 631 99 s \$0-ezseq-const_r;
 #X obj 660 156 s \$0-ezseq-rnd_ch_r;
 #X obj 431 107 s \$0-ezseq-dump_r;
-#X obj 239 33 route list float dump rnd const rnd_ch range_lo range_hi
-floor, f 126;
 #X obj 960 110 s \$0-ezseq-rnd_floor_r;
 #X obj 859 157 s \$0-ezseq-range_hi_r;
 #X obj 800 81 s \$0-ezseq-range_lo_r;
-#X connect 0 0 16 0;
-#X connect 1 0 4 0;
-#X connect 1 1 5 0;
-#X connect 2 0 6 0;
-#X connect 2 1 7 0;
-#X connect 3 0 1 0;
-#X connect 3 1 2 0;
-#X connect 3 2 8 0;
-#X connect 3 3 9 0;
-#X connect 16 0 10 0;
-#X connect 16 1 11 0;
-#X connect 16 2 15 0;
-#X connect 16 3 12 0;
-#X connect 16 4 13 0;
-#X connect 16 5 14 0;
-#X connect 16 6 19 0;
-#X connect 16 7 18 0;
-#X connect 16 8 17 0;
-#X connect 16 9 3 0;
+#X obj 239 33 route list float dump rnd const rnd_ch range_lo range_hi
+floor on, f 126;
+#X obj 1050 170 s \$0-ezseq-on_r;
+#X obj 192 410 route save rcl preset_save preset_load preset_clear
+;
+#X obj 533 468 s \$0-ezseq-pre_clear_r;
+#X connect 0 0 18 0;
+#X connect 1 0 3 0;
+#X connect 1 1 4 0;
+#X connect 2 0 5 0;
+#X connect 2 1 6 0;
+#X connect 18 0 9 0;
+#X connect 18 1 10 0;
+#X connect 18 2 14 0;
+#X connect 18 3 11 0;
+#X connect 18 4 12 0;
+#X connect 18 5 13 0;
+#X connect 18 6 17 0;
+#X connect 18 7 16 0;
+#X connect 18 8 15 0;
+#X connect 18 9 19 0;
+#X connect 18 10 20 0;
+#X connect 20 0 1 0;
+#X connect 20 1 2 0;
+#X connect 20 2 7 0;
+#X connect 20 3 8 0;
+#X connect 20 4 21 0;
 #X restore 353 89 pd ezseq-msgroute;
-#N canvas 1024 465 450 300 ezseq-args 0;
+#N canvas 1024 465 706 362 ezseq-args 0;
 #X obj 68 48 loadbang;
 #X obj 68 96 f \$1;
 #X obj 136 98 f \$2;
@@ -605,27 +617,40 @@ floor, f 126;
 #X obj 51 203 s \$0-ezseq-range_lo_r;
 #X obj 136 122 moses 1e-20;
 #X msg 136 146 100;
-#X obj 68 72 t b b b, f 28;
-#X obj 242 143 s \$0-ezseq-rnd_ch_r;
-#X msg 265 109 100;
-#X connect 0 0 7 0;
+#X obj 372 148 s \$0-ezseq-rnd_ch_r;
+#X msg 395 114 100;
+#X obj 68 72 t b b b b, f 28;
+#X obj 259 231 f \$3;
+#X obj 259 255 s \$0-ezseq-const_r;
+#X connect 0 0 9 0;
 #X connect 1 0 4 0;
 #X connect 2 0 5 0;
 #X connect 5 0 6 0;
 #X connect 5 1 3 0;
 #X connect 6 0 3 0;
-#X connect 7 0 1 0;
-#X connect 7 1 2 0;
-#X connect 7 2 9 0;
-#X connect 9 0 8 0;
+#X connect 8 0 7 0;
+#X connect 9 0 1 0;
+#X connect 9 1 2 0;
+#X connect 9 2 10 0;
+#X connect 9 3 8 0;
+#X connect 10 0 11 0;
 #X restore 472 144 pd ezseq-args;
-#X text 942 129 derek kwan;
-#X text 947 146 pdkez 2018;
-#X text 951 168 gpl v 3;
-#X obj 646 225 nbx 5 14 0 1 0 0 \$0-ezseq-const \$0-ezseq-const_r const
-65 8 0 12 -262144 -1 -1 1 256;
-#X connect 48 0 56 0;
+#X text 1196 12 derek kwan;
+#X text 1201 29 pdkez 2018;
+#X text 1205 51 gpl v 3;
+#X obj 647 247 nbx 5 14 0 23 0 0 \$0-ezseq-const \$0-ezseq-const_r
+const 65 8 0 12 -262144 -1 -1 0 256;
+#X obj 714 208 tgl 15 0 \$0-ezseq-on \$0-ezseq-on_r on 17 7 0 12 -262144
+-1 -1 0 1;
+#X text 637 76 args:range_lo \, range_hi \, const;
+#X obj 345 489 r \$0-ezseq-on;
+#X obj 206 515 spigot 0;
+#X obj 539 249 bng 15 250 50 0 \$0-ezseq-pre_clear \$0-ezseq-pre_clear_r
+pre_clear 17 7 0 12 -262144 -1 -1;
+#X connect 48 0 55 0;
 #X connect 51 0 49 0;
-#X connect 52 0 53 0;
+#X connect 52 0 64 0;
 #X connect 53 0 54 0;
+#X connect 63 0 64 1;
+#X connect 64 0 53 0;
 #X coords 0 -1 1 1 550 150 1 200 200;

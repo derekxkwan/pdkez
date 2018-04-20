@@ -1,5 +1,5 @@
 #N canvas 700 150 1006 730 12;
-#X floatatom 287 125 5 0 0 0 count #0-ezctr-count_r #0-ezctr-count
+#X floatatom 142 127 5 0 0 0 count #0-ezctr-count_r #0-ezctr-count
 , f 5;
 #X obj 197 648 outlet;
 #X text 255 647 count;
@@ -11,20 +11,20 @@
 -262144 -1 -1 1 1;
 #X floatatom 135 148 5 0 0 0 step #0-ezctr-step_r #0-ezctr-step, f
 5;
-#X floatatom 199 149 5 0 0 0 lim #0-ezctr-lim_r #0-ezctr-lim, f 5
+#X floatatom 282 149 5 0 0 0 lim #0-ezctr-lim_r #0-ezctr-lim, f 5
 ;
-#X floatatom 287 148 5 0 0 0 start #0-ezctr-start_r #0-ezctr-start
+#X floatatom 214 149 5 0 0 0 start #0-ezctr-start_r #0-ezctr-start
 , f 5;
-#X obj 146 128 bng 15 250 50 0 \$0-ezctr-reset \$0-ezctr-reset_r reset
+#X obj 225 128 bng 15 250 50 0 \$0-ezctr-reset \$0-ezctr-reset_r reset
 17 7 0 12 -262144 -1 -1;
 #X obj 307 368 r \$0-ezctr-start;
-#X obj 104 130 bng 15 250 50 0 \$0-ezctr-set \$0-ezctr-set_r set 17
+#X obj 184 128 bng 15 250 50 0 \$0-ezctr-set \$0-ezctr-set_r set 17
 7 0 12 -262144 -1 -1;
 #X text 373 39 use "count" numbox to set;
 #X obj 262 343 r \$0-ezctr-count;
 #X obj 208 381 f;
 #X obj 144 330 r \$0-ezctr-set;
-#X obj 200 127 bng 15 250 50 0 \$0-ezctr-trig \$0-ezctr-trig_r trig
+#X obj 280 127 bng 15 250 50 0 \$0-ezctr-trig \$0-ezctr-trig_r trig
 17 7 0 12 -262144 -1 -1;
 #X obj 369 109 inlet;
 #X obj 364 259 s \$0-ezctr-trig_r;

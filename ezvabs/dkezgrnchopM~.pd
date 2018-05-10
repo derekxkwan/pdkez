@@ -1,22 +1,22 @@
 #N canvas 716 354 1370 485 12;
 #X obj 112 182 hsl 175 15 0 1 0 0 \$0-ezgrnchop_pos-min \$0-ezgrnchop_pos-min_r
-min_pos -2 -8 0 12 -262144 -1 -1 4400 1;
+min_pos -2 -8 0 12 -262144 -1 -1 0 1;
 #X floatatom 297 182 7 0 0 0 - - -, f 7;
 #X obj 111 214 hsl 170 15 0 1 0 0 \$0-ezgrnchop_pos-max \$0-ezgrnchop_pos-max_r
-max_pos -2 -8 0 12 -262144 -1 -1 9500 1;
+max_pos -2 -8 0 12 -262144 -1 -1 13100 1;
 #X floatatom 294 210 7 0 0 0 - - -, f 7;
 #X obj 103 143 bng 20 250 50 0 \$0-ezgrnchop_trig empty trig 0 -7 0
 12 -262144 -1 -1;
 #X obj 167 158 tgl 15 0 \$0-ezgrnchop_randpos \$0-ezgrnchop_randpos_r
-rand_pos 17 7 0 12 -262144 -1 -1 0 1;
+rand_pos 17 7 0 12 -262144 -1 -1 1 1;
 #X obj 231 234 tgl 15 0 \$0-ezgrnchop_randspeed \$0-ezgrnchop_randspeed_r
 rand_spd 17 7 0 12 -262144 -1 -1 0 1;
 #X obj 105 299 tgl 15 0 \$0-ezgrnchop_randtpose \$0-ezgrnchop_randtpose_r
 rand_tp 17 7 0 12 -262144 -1 -1 0 1;
 #X obj 109 233 tgl 15 0 \$0-ezgrnchop_randdur \$0-ezgrnchop_randdur_r
-rnd_dur 17 7 0 12 -262144 -1 -1 0 1;
+rnd_dur 17 7 0 12 -262144 -1 -1 1 1;
 #X obj 158 140 tgl 15 0 \$0-ezgrnchop_sync \$0-ezgrnchop_sync_r sync
-17 7 0 12 -262144 -1 -1 0 1;
+17 7 0 12 -262144 -1 -1 1 1;
 #X floatatom 183 279 5 1 1e+30 0 max_dur #0-ezgrnchop_dur-max_r #0-ezgrnchop_dur-max
 , f 5;
 #X floatatom 183 256 5 1 1e+30 0 min_dur #0-ezgrnchop_dur-min_r #0-ezgrnchop_dur-min
@@ -60,7 +60,7 @@ rnd_dur 17 7 0 12 -262144 -1 -1 0 1;
 #X floatatom 321 327 5 0 1e+30 0 min_break #0-ezgrnchop_break-min_r
 #0-ezgrnchop_break-min, f 5;
 #X obj 233 305 tgl 15 0 \$0-ezgrnchop_randbreak \$0-ezgrnchop_randbreak_r
-rand_brk 17 7 0 12 -262144 -1 -1 0 1;
+rand_brk 17 7 0 12 -262144 -1 -1 1 1;
 #X obj 312 305 bng 15 250 50 0 \$0-ezgrnchop_break0 empty brk_0 17
 7 0 12 -262144 -1 -1;
 #X obj 125 318 tgl 15 0 \$0-ezgrnchop_tpose_i \$0-ezgrnchop_tpose_i_r
@@ -171,7 +171,7 @@ rand_tpose rand_break length base_dur sync loop tpose_i chance set
 #X connect 17 4 12 0;
 #X connect 17 5 15 0;
 #X restore 424 304 pd pdkez_ezgrnchop_load;
-#N canvas 479 304 1469 1002 pdkez_ezgrnchop_snd 0;
+#N canvas 1004 513 1469 1002 pdkez_ezgrnchop_snd 0;
 #X obj 291 488 pdkvabs/dkbangroute;
 #X obj 241 349 f 0;
 #X obj 224 281 r \$0-ezgrnchop_trig;

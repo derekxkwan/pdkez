@@ -1,11 +1,11 @@
 #N canvas 713 325 1445 797 12;
 #X obj 386 257 inlet~;
-#X floatatom 132 230 5 0 1e+20 0 freq #0-freq_r #0-freq, f 5;
+#X floatatom 132 234 5 0 1e+20 0 freq #0-freq_r #0-freq, f 5;
 #X obj 456 251 pack f 5;
-#X floatatom 181 230 5 0 1e+20 0 q #0-q_r #0-q, f 5;
+#X floatatom 181 234 5 0 1e+20 0 q #0-q_r #0-q, f 5;
 #X obj 541 249 r \$0-q;
 #X obj 449 201 r \$0-freq;
-#X floatatom 250 230 5 0 1e+20 0 ramp #0-ramp_r #0-ramp, f 5;
+#X floatatom 250 234 5 0 1e+20 0 ramp #0-ramp_r #0-ramp, f 5;
 #X obj 534 197 r \$0-ramp;
 #X obj 604 202 loadbang;
 #X obj 617 304 f \$1;
@@ -27,8 +27,8 @@
 -1 -1 0 1;
 #X obj 1020 289 f \$4;
 #X text 830 191 args: freq \, q \, ramp \, bp/lop \, bypass;
-#X obj 200 215 hradio 15 1 0 2 \$0-filt \$0-filt_r filt 0 -8 0 12 -262144
--1 -1 0;
+#X obj 131 219 hradio 15 1 0 2 \$0-filt \$0-filt_r filt -30 7 0 12
+-262144 -1 -1 0;
 #X obj 715 149 route freq q ramp filt bypass;
 #X obj 604 226 t b b b b b, f 81;
 #X obj 1143 283 f \$5;
@@ -76,4 +76,4 @@
 #X connect 36 0 22 2;
 #X connect 37 0 23 0;
 #X connect 38 0 37 2;
-#X coords 0 -1 1 1 200 50 1 100 200;
+#X coords 0 -1 1 1 200 55 1 100 200;

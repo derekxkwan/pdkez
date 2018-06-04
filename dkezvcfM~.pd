@@ -1,4 +1,4 @@
-#N canvas 609 386 956 853 12;
+#N canvas 609 386 1464 507 12;
 #X obj 395 275 inlet~;
 #X obj 389 429 outlet~;
 #X obj 483 421 outlet~;
@@ -20,10 +20,12 @@
 #X obj 373 122 f \$3;
 #X obj 373 146 moses 1e-20;
 #X msg 337 168 5;
-#X text 696 70 derek kwan;
-#X text 695 98 pdkez;
-#X text 698 122 gpl v 3 2018;
+#X text 898 0 derek kwan;
+#X text 897 28 pdkez;
+#X text 900 52 gpl v 3 2018;
 #X obj 456 275 line~;
+#X obj 653 17 inlet;
+#X obj 653 41 route freq q ramp;
 #X connect 0 0 15 0;
 #X connect 4 0 24 0;
 #X connect 6 0 15 2;
@@ -45,4 +47,8 @@
 #X connect 19 1 8 0;
 #X connect 20 0 8 0;
 #X connect 24 0 15 1;
+#X connect 25 0 26 0;
+#X connect 26 0 3 0;
+#X connect 26 1 5 0;
+#X connect 26 2 8 0;
 #X coords 0 -1 1 1 200 50 1 100 200;

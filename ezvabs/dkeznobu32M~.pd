@@ -1,99 +1,99 @@
-#N canvas 811 230 1355 1024 12;
-#X floatatom 267 279 5 0 0 0 - #0-eznobu-seq1_r #0-eznobu-seq1, f
-5;
-#X floatatom 226 279 5 0 0 0 - #0-eznobu-seq0_r #0-eznobu-seq0, f
-5;
-#X floatatom 349 279 5 0 0 0 - #0-eznobu-seq3_r #0-eznobu-seq3, f
-5;
-#X floatatom 308 279 5 0 0 0 - #0-eznobu-seq2_r #0-eznobu-seq2, f
-5;
-#X floatatom 430 279 5 0 0 0 - #0-eznobu-seq5_r #0-eznobu-seq5, f
-5;
-#X floatatom 389 279 5 0 0 0 - #0-eznobu-seq4_r #0-eznobu-seq4, f
-5;
-#X floatatom 512 279 5 0 0 0 - #0-eznobu-seq7_r #0-eznobu-seq7, f
-5;
-#X floatatom 471 279 5 0 0 0 - #0-eznobu-seq6_r #0-eznobu-seq6, f
-5;
-#X floatatom 267 301 5 0 0 0 - #0-eznobu-seq9_r #0-eznobu-seq9, f
-5;
-#X floatatom 226 301 5 0 0 0 - #0-eznobu-seq8_r #0-eznobu-seq8, f
-5;
-#X floatatom 349 301 5 0 0 0 - #0-eznobu-seq10_r #0-eznobu-seq10,
-f 5;
-#X floatatom 308 301 5 0 0 0 - #0-eznobu-seq11_r #0-eznobu-seq11,
-f 5;
-#X floatatom 430 301 5 0 0 0 - #0-eznobu-seq13_r #0-eznobu-seq13,
-f 5;
-#X floatatom 389 301 5 0 0 0 - #0-eznobu-seq12_r #0-eznobu-seq12,
-f 5;
-#X floatatom 512 301 5 0 0 0 - #0-eznobu-seq15_r #0-eznobu-seq15,
-f 5;
-#X floatatom 471 301 5 0 0 0 - #0-eznobu-seq14_r #0-eznobu-seq14,
-f 5;
-#X floatatom 267 323 5 0 0 0 - #0-eznobu-seq17_r #0-eznobu-seq17,
-f 5;
-#X floatatom 226 323 5 0 0 0 - #0-eznobu-seq16_r #0-eznobu-seq16,
-f 5;
-#X floatatom 349 323 5 0 0 0 - #0-eznobu-seq19_r #0-eznobu-seq19,
-f 5;
-#X floatatom 308 323 5 0 0 0 - #0-eznobu-seq18_r #0-eznobu-seq18,
-f 5;
-#X floatatom 430 323 5 0 0 0 - #0-eznobu-seq21_r #0-eznobu-seq21,
-f 5;
-#X floatatom 389 323 5 0 0 0 - #0-eznobu-seq20_r #0-eznobu-seq20,
-f 5;
-#X floatatom 512 323 5 0 0 0 - #0-eznobu-seq23_r #0-eznobu-seq23,
-f 5;
-#X floatatom 471 323 5 0 0 0 - #0-eznobu-seq22_r #0-eznobu-seq22,
-f 5;
-#X floatatom 267 344 5 0 0 0 - #0-eznobu-seq25_r #0-eznobu-seq25,
-f 5;
-#X floatatom 226 344 5 0 0 0 - #0-eznobu-seq24_r #0-eznobu-seq24,
-f 5;
-#X floatatom 349 344 5 0 0 0 - #0-eznobu-seq27_r #0-eznobu-seq27,
-f 5;
-#X floatatom 308 344 5 0 0 0 - #0-eznobu-seq26_r #0-eznobu-seq26,
-f 5;
-#X floatatom 430 344 5 0 0 0 - #0-eznobu-seq29_r #0-eznobu-seq29,
-f 5;
-#X floatatom 389 344 5 0 0 0 - #0-eznobu-seq28_r #0-eznobu-seq28,
-f 5;
-#X floatatom 512 344 5 0 0 0 - #0-eznobu-seq31_r #0-eznobu-seq31,
-f 5;
-#X floatatom 471 344 5 0 0 0 - #0-eznobu-seq30_r #0-eznobu-seq30,
-f 5;
-#X floatatom 654 277 10 0 1e+30 0 - #0-eznobu-loc1_r #0-eznobu-loc1
+#N canvas 996 203 1355 1024 12;
+#X floatatom 273 279 6 0 0 0 - #0-eznobu-seq1_r #0-eznobu-seq1, f
+6;
+#X floatatom 226 279 6 0 0 0 - #0-eznobu-seq0_r #0-eznobu-seq0, f
+6;
+#X floatatom 367 279 6 0 0 0 - #0-eznobu-seq3_r #0-eznobu-seq3, f
+6;
+#X floatatom 320 279 6 0 0 0 - #0-eznobu-seq2_r #0-eznobu-seq2, f
+6;
+#X floatatom 462 279 6 0 0 0 - #0-eznobu-seq5_r #0-eznobu-seq5, f
+6;
+#X floatatom 414 279 6 0 0 0 - #0-eznobu-seq4_r #0-eznobu-seq4, f
+6;
+#X floatatom 557 279 6 0 0 0 - #0-eznobu-seq7_r #0-eznobu-seq7, f
+6;
+#X floatatom 510 279 6 0 0 0 - #0-eznobu-seq6_r #0-eznobu-seq6, f
+6;
+#X floatatom 273 301 6 0 0 0 - #0-eznobu-seq9_r #0-eznobu-seq9, f
+6;
+#X floatatom 226 301 6 0 0 0 - #0-eznobu-seq8_r #0-eznobu-seq8, f
+6;
+#X floatatom 367 301 6 0 0 0 - #0-eznobu-seq10_r #0-eznobu-seq10,
+f 6;
+#X floatatom 320 301 6 0 0 0 - #0-eznobu-seq11_r #0-eznobu-seq11,
+f 6;
+#X floatatom 462 301 6 0 0 0 - #0-eznobu-seq13_r #0-eznobu-seq13,
+f 6;
+#X floatatom 414 301 6 0 0 0 - #0-eznobu-seq12_r #0-eznobu-seq12,
+f 6;
+#X floatatom 557 301 6 0 0 0 - #0-eznobu-seq15_r #0-eznobu-seq15,
+f 6;
+#X floatatom 510 301 6 0 0 0 - #0-eznobu-seq14_r #0-eznobu-seq14,
+f 6;
+#X floatatom 273 323 6 0 0 0 - #0-eznobu-seq17_r #0-eznobu-seq17,
+f 6;
+#X floatatom 226 323 6 0 0 0 - #0-eznobu-seq16_r #0-eznobu-seq16,
+f 6;
+#X floatatom 367 323 6 0 0 0 - #0-eznobu-seq19_r #0-eznobu-seq19,
+f 6;
+#X floatatom 320 323 6 0 0 0 - #0-eznobu-seq18_r #0-eznobu-seq18,
+f 6;
+#X floatatom 462 323 6 0 0 0 - #0-eznobu-seq21_r #0-eznobu-seq21,
+f 6;
+#X floatatom 414 323 6 0 0 0 - #0-eznobu-seq20_r #0-eznobu-seq20,
+f 6;
+#X floatatom 557 323 6 0 0 0 - #0-eznobu-seq23_r #0-eznobu-seq23,
+f 6;
+#X floatatom 510 323 6 0 0 0 - #0-eznobu-seq22_r #0-eznobu-seq22,
+f 6;
+#X floatatom 273 344 6 0 0 0 - #0-eznobu-seq25_r #0-eznobu-seq25,
+f 6;
+#X floatatom 226 344 6 0 0 0 - #0-eznobu-seq24_r #0-eznobu-seq24,
+f 6;
+#X floatatom 367 344 6 0 0 0 - #0-eznobu-seq27_r #0-eznobu-seq27,
+f 6;
+#X floatatom 320 344 6 0 0 0 - #0-eznobu-seq26_r #0-eznobu-seq26,
+f 6;
+#X floatatom 462 344 6 0 0 0 - #0-eznobu-seq29_r #0-eznobu-seq29,
+f 6;
+#X floatatom 414 344 6 0 0 0 - #0-eznobu-seq28_r #0-eznobu-seq28,
+f 6;
+#X floatatom 557 344 6 0 0 0 - #0-eznobu-seq31_r #0-eznobu-seq31,
+f 6;
+#X floatatom 510 344 6 0 0 0 - #0-eznobu-seq30_r #0-eznobu-seq30,
+f 6;
+#X floatatom 702 275 10 0 1e+30 0 - #0-eznobu-loc1_r #0-eznobu-loc1
 , f 10;
-#X floatatom 578 277 10 0 1e+30 0 - #0-eznobu-loc0_r #0-eznobu-loc0
+#X floatatom 626 275 10 0 1e+30 0 - #0-eznobu-loc0_r #0-eznobu-loc0
 , f 10;
-#X floatatom 807 277 10 0 1e+30 0 - #0-eznobu-loc3_r #0-eznobu-loc3
+#X floatatom 855 275 10 0 1e+30 0 - #0-eznobu-loc3_r #0-eznobu-loc3
 , f 10;
-#X floatatom 731 277 10 0 1e+30 0 - #0-eznobu-loc2_r #0-eznobu-loc2
+#X floatatom 779 275 10 0 1e+30 0 - #0-eznobu-loc2_r #0-eznobu-loc2
 , f 10;
-#X floatatom 654 300 10 0 1e+30 0 - #0-eznobu-loc5_r #0-eznobu-loc5
+#X floatatom 702 298 10 0 1e+30 0 - #0-eznobu-loc5_r #0-eznobu-loc5
 , f 10;
-#X floatatom 578 300 10 0 1e+30 0 - #0-eznobu-loc4_r #0-eznobu-loc4
+#X floatatom 626 298 10 0 1e+30 0 - #0-eznobu-loc4_r #0-eznobu-loc4
 , f 10;
-#X floatatom 807 300 10 0 1e+30 0 - #0-eznobu-loc7_r #0-eznobu-loc7
+#X floatatom 855 298 10 0 1e+30 0 - #0-eznobu-loc7_r #0-eznobu-loc7
 , f 10;
-#X floatatom 731 300 10 0 1e+30 0 - #0-eznobu-loc6_r #0-eznobu-loc6
+#X floatatom 779 298 10 0 1e+30 0 - #0-eznobu-loc6_r #0-eznobu-loc6
 , f 10;
-#X floatatom 654 323 10 0 1e+30 0 - #0-eznobu-loc9_r #0-eznobu-loc9
+#X floatatom 702 321 10 0 1e+30 0 - #0-eznobu-loc9_r #0-eznobu-loc9
 , f 10;
-#X floatatom 578 323 10 0 1e+30 0 - #0-eznobu-loc8_r #0-eznobu-loc8
+#X floatatom 626 321 10 0 1e+30 0 - #0-eznobu-loc8_r #0-eznobu-loc8
 , f 10;
-#X floatatom 807 323 10 0 1e+30 0 - #0-eznobu-loc11_r #0-eznobu-loc11
+#X floatatom 855 321 10 0 1e+30 0 - #0-eznobu-loc11_r #0-eznobu-loc11
 , f 10;
-#X floatatom 731 323 10 0 1e+30 0 - #0-eznobu-loc10_r #0-eznobu-loc10
+#X floatatom 779 321 10 0 1e+30 0 - #0-eznobu-loc10_r #0-eznobu-loc10
 , f 10;
-#X floatatom 654 345 10 0 1e+30 0 - #0-eznobu-loc13_r #0-eznobu-loc13
+#X floatatom 702 343 10 0 1e+30 0 - #0-eznobu-loc13_r #0-eznobu-loc13
 , f 10;
-#X floatatom 578 345 10 0 1e+30 0 - #0-eznobu-loc12_r #0-eznobu-loc12
+#X floatatom 626 343 10 0 1e+30 0 - #0-eznobu-loc12_r #0-eznobu-loc12
 , f 10;
-#X floatatom 807 345 10 0 1e+30 0 - #0-eznobu-loc15_r #0-eznobu-loc15
+#X floatatom 855 343 10 0 1e+30 0 - #0-eznobu-loc15_r #0-eznobu-loc15
 , f 10;
-#X floatatom 731 345 10 0 1e+30 0 - #0-eznobu-loc14_r #0-eznobu-loc14
+#X floatatom 779 343 10 0 1e+30 0 - #0-eznobu-loc14_r #0-eznobu-loc14
 , f 10;
 #X text 206 299 8;
 #X text 201 322 16;
@@ -364,7 +364,7 @@ f 5;
 #X connect 8 0 6 0;
 #X connect 9 0 3 0;
 #X restore 68 400 pd eznobu-locstuff;
-#N canvas 290 467 1791 877 eznobu-seqstuff 0;
+#N canvas 466 642 1791 877 eznobu-seqstuff 0;
 #X obj 47 68 array define \$0-dkeznobu-seq 32;
 #N canvas 503 163 1808 762 eznobu-seqrcv 0;
 #X obj 73 738 outlet;
@@ -680,44 +680,79 @@ f 5;
 #X connect 16 0 4 1;
 #X connect 17 0 8 1;
 #X restore 53 311 pd eznobu-seq_stut_rnder;
-#N canvas 493 231 888 736 eznobu-seq_conster 0;
+#N canvas 493 231 899 938 eznobu-seq_conster 0;
 #X obj 107 20 r \$0-eznobu-seq_const;
-#X msg 95 154 32;
-#X obj 95 178 pdkvabs/dkfor;
-#X obj 111 644 s;
-#X obj 96 279 t b f, f 31;
-#X obj 328 603 makefilename \$0-eznobu-seq%d_r;
-#X obj 96 303 f;
-#X obj 98 127 t b f;
+#X obj 100 899 s;
+#X obj 85 534 t b f, f 31;
+#X obj 317 858 makefilename \$0-eznobu-seq%d_r;
+#X obj 85 558 f;
 #X text 183 46 seq_const;
-#X obj 96 327 t f b;
-#X obj 163 381 random 101;
-#X obj 163 434 < 0;
-#X obj 163 458 sel 0 1;
-#X text 232 457 1 = add stut;
-#X msg 159 497 0;
-#X obj 88 566 + 0, f 10;
-#X obj 229 407 r \$0-eznobu-rnd_stut_ch;
-#X obj 202 498 pdkvabs/dkrrand 0 1;
-#X connect 0 0 7 0;
-#X connect 1 0 2 0;
+#X obj 85 582 t f b;
+#X obj 152 636 random 101;
+#X obj 152 689 < 0;
+#X obj 152 713 sel 0 1;
+#X text 221 712 1 = add stut;
+#X msg 148 752 0;
+#X obj 77 821 + 0, f 10;
+#X obj 218 662 r \$0-eznobu-rnd_stut_ch;
+#X obj 191 753 pdkvabs/dkrrand 0 1;
+#X obj 119 327 pdkvabs/dkfor;
+#X obj 122 276 t b f;
+#X text 242 124 seq_const;
+#X obj 321 95 r \$0-const_sel;
+#X obj 144 134 swap;
+#X obj 144 158 pack f f;
+#X text 431 96 all or range;
+#X obj 126 191 route 0 1;
+#X obj 612 175 r \$0-const_lo;
+#X obj 465 178 r \$0-const_hi;
+#X obj 162 236 t b f;
+#X obj 261 371 pdkvabs/dkfor;
+#X obj 261 395 + 0;
+#X obj 396 260 -;
+#X obj 612 199 t b f f;
+#X obj 255 278 f;
+#X obj 255 302 moses 0;
+#X obj 271 335 min 32;
+#X msg 119 303 32;
+#X connect 0 0 19 0;
 #X connect 2 0 4 0;
+#X connect 2 1 3 0;
+#X connect 3 0 1 1;
 #X connect 4 0 6 0;
-#X connect 4 1 5 0;
-#X connect 5 0 3 1;
-#X connect 6 0 9 0;
-#X connect 7 0 1 0;
-#X connect 7 1 6 1;
-#X connect 9 0 15 0;
-#X connect 9 1 10 0;
-#X connect 10 0 11 0;
-#X connect 11 0 12 0;
-#X connect 12 0 14 0;
-#X connect 12 1 17 0;
-#X connect 14 0 15 1;
-#X connect 15 0 3 0;
-#X connect 16 0 11 1;
-#X connect 17 0 15 1;
+#X connect 6 0 12 0;
+#X connect 6 1 7 0;
+#X connect 7 0 8 0;
+#X connect 8 0 9 0;
+#X connect 9 0 11 0;
+#X connect 9 1 14 0;
+#X connect 11 0 12 1;
+#X connect 12 0 1 0;
+#X connect 13 0 8 1;
+#X connect 14 0 12 1;
+#X connect 15 0 2 0;
+#X connect 16 0 33 0;
+#X connect 16 1 4 1;
+#X connect 18 0 19 1;
+#X connect 19 0 20 0;
+#X connect 19 1 20 1;
+#X connect 20 0 22 0;
+#X connect 22 0 16 0;
+#X connect 22 1 25 0;
+#X connect 23 0 29 0;
+#X connect 24 0 28 0;
+#X connect 25 0 30 0;
+#X connect 25 1 4 1;
+#X connect 26 0 27 0;
+#X connect 27 0 2 0;
+#X connect 28 0 30 1;
+#X connect 29 0 28 0;
+#X connect 29 1 28 1;
+#X connect 29 2 27 1;
+#X connect 30 0 31 0;
+#X connect 31 1 32 0;
+#X connect 32 0 26 0;
+#X connect 33 0 15 0;
 #X restore 62 355 pd eznobu-seq_conster;
 #N canvas 505 225 861 651 eznobu-seq_initclr 0;
 #X obj 119 81 loadbang;
@@ -866,18 +901,18 @@ f 5;
 #X restore 68 425 pd eznobu-dynamicpatcher;
 #X obj 159 687 tabread \$0-dkeznobu-seq;
 #X obj 91 479 r \$0-eznobu-count;
-#X floatatom 205 219 5 0 1e+20 1 dur #0-eznobu-dur_r #0-eznobu-dur
+#X floatatom 202 219 5 0 1e+20 1 dur #0-eznobu-dur_r #0-eznobu-dur
 , f 5;
 #X obj 386 679 r \$0-eznobu-dur;
 #X obj 182 823 outlet~;
 #X obj 520 680 r \$0-eznobu-array;
 #X msg 386 703 dur \$1;
 #X msg 520 704 set \$1;
-#X obj 428 221 tgl 15 0 \$0-eznobu-absrel \$0-eznobu-absrel_r absrel
+#X obj 496 225 tgl 15 0 \$0-eznobu-absrel \$0-eznobu-absrel_r absrel
 17 7 0 12 -262144 -1 -1 0 1;
 #X obj 516 583 r \$0-eznobu-absrel;
 #X msg 516 607 absrel \$1;
-#N canvas 698 332 643 474 eznobu-argts 0;
+#N canvas 817 762 1214 497 eznobu-argts 0;
 #X obj 63 65 loadbang;
 #X obj 63 113 f \$2;
 #X obj 63 137 moses 1e-20;
@@ -886,11 +921,17 @@ f 5;
 #X obj 198 257 f \$3;
 #X obj 198 281 s \$0-eznobu-absrel_r;
 #X obj 63 89 t b b b, f 35;
-#X obj 337 148 t b b, f 23;
 #X obj 337 227 s \$0-eznobu-seq_rnd_ch_r;
 #X msg 337 172 100;
 #X msg 491 180 100;
 #X obj 456 267 s \$0-eznobu-loc_rnd_ch_r;
+#X obj 677 269 s \$0-const_hi_r;
+#X obj 837 277 s \$0-const_lo_r;
+#X obj 885 229 s \$0-const_sel_r;
+#X obj 337 148 t b b b b b, f 82;
+#X msg 827 219 0;
+#X msg 938 187 0;
+#X msg 689 202 31;
 #X connect 0 0 7 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
@@ -899,15 +940,21 @@ f 5;
 #X connect 5 0 6 0;
 #X connect 7 0 1 0;
 #X connect 7 1 5 0;
-#X connect 7 2 8 0;
-#X connect 8 0 10 0;
-#X connect 8 1 11 0;
-#X connect 10 0 9 0;
-#X connect 11 0 12 0;
+#X connect 7 2 15 0;
+#X connect 9 0 8 0;
+#X connect 10 0 11 0;
+#X connect 15 0 9 0;
+#X connect 15 1 10 0;
+#X connect 15 2 18 0;
+#X connect 15 3 16 0;
+#X connect 15 4 17 0;
+#X connect 16 0 13 0;
+#X connect 17 0 14 0;
+#X connect 18 0 12 0;
 #X restore 64 449 pd eznobu-argts;
-#X text 562 298 4;
-#X text 562 319 8;
-#X text 556 343 12;
+#X text 610 296 4;
+#X text 610 317 8;
+#X text 604 341 12;
 #X obj 332 646 r \$0-eznobu-loc;
 #N canvas 177 532 1011 589 eznobu-dump 0;
 #X obj 55 224 array get \$0-dkeznobu-seq;
@@ -934,13 +981,13 @@ f 5;
 #X restore 747 748 pd eznobu-dump;
 #X obj 747 785 outlet;
 #X text 804 785 dump;
-#X obj 650 241 bng 15 250 50 0 \$0-eznobu-loc_rnd empty loc_rnd 17
+#X obj 712 240 bng 15 250 50 0 \$0-eznobu-loc_rnd empty loc_rnd 17
 7 0 12 -262144 -1 -1;
-#X obj 289 241 bng 15 250 50 0 \$0-eznobu-seq_rnd empty seq_rnd 17
+#X obj 279 245 bng 15 250 50 0 \$0-eznobu-seq_rnd empty seq_rnd 17
 7 0 12 -262144 -1 -1;
-#X obj 723 242 bng 15 250 50 0 \$0-eznobu-loc_dump empty loc_dump 17
+#X obj 785 241 bng 15 250 50 0 \$0-eznobu-loc_dump empty loc_dump 17
 7 0 12 -262144 -1 -1;
-#X obj 359 241 bng 15 250 50 0 \$0-eznobu-seq_dump empty seq_dump 17
+#X obj 484 244 bng 15 250 50 0 \$0-eznobu-seq_dump empty seq_dump 17
 7 0 12 -262144 -1 -1;
 #N canvas 209 416 1887 858 eznobu-msgroute 0;
 #X obj 240 3 inlet;
@@ -1035,23 +1082,23 @@ loc_preset_clear;
 #X connect 41 5 29 0;
 #X restore 203 59 pd eznobu-msgroute;
 #X text 458 29 args: array \, dur (for skipping) \, abs/rel;
-#X floatatom 267 220 5 0 15 1 seq_const #0-eznobu-seq_const_r #0-eznobu-seq_const
+#X floatatom 264 220 5 0 15 1 seq_const #0-eznobu-seq_const_r #0-eznobu-seq_const
 , f 5;
 #X text 265 110 -2: silence \, [-1 \, 0): no skip;
 #X text 274 130 ints 0-15: location;
 #X text 266 148 any decimals: stutter x(1/dec) per dur;
 #X text 199 278 seq;
-#X text 548 279 loc;
-#X obj 372 222 bng 15 250 50 0 \$0-eznobu-clear \$0-eznobu-clear_r
+#X text 603 277 loc;
+#X obj 204 264 bng 15 250 50 0 \$0-eznobu-clear \$0-eznobu-clear_r
 clear 17 7 0 12 -262144 -1 -1;
 #X obj 82 653 del;
 #X obj 85 595 v \$0-eznobu-dur;
 #X obj 91 566 t b f b, f 21;
 #X msg 237 599 stop;
 #X msg 82 677 -2;
-#X floatatom 575 217 5 0 100 1 rnd_stut_ch #0-eznobu-rnd_stut_ch_r
+#X floatatom 637 216 5 0 100 1 rnd_stut_ch #0-eznobu-rnd_stut_ch_r
 #0-eznobu-rnd_stut_ch, f 5;
-#X obj 698 218 bng 15 250 50 0 \$0-ezvabs_rnd_stut \$0-ezvabs_rnd_stut_r
+#X obj 760 217 bng 15 250 50 0 \$0-ezvabs_rnd_stut \$0-ezvabs_rnd_stut_r
 rnd_stut 17 7 0 12 -262144 -1 -1;
 #X text 692 130 seq_rnd randomizes seq locations;
 #X text 692 151 rnd_stut randomly adds stutter to seq locations;
@@ -1061,45 +1108,50 @@ rnd_stut 17 7 0 12 -262144 -1 -1;
 #X text 1088 82 gpl v 3;
 #X text 682 103 rnd_stut_ch applies with seq_rnd and rnd_stut and seq_const
 ;
-#X floatatom 573 238 5 0 100 1 lr_ch #0-eznobu-loc_rnd_ch_r #0-eznobu-loc_rnd_ch
+#X floatatom 635 237 5 0 100 1 lr_ch #0-eznobu-loc_rnd_ch_r #0-eznobu-loc_rnd_ch
 , f 5;
-#X floatatom 208 239 5 0 100 1 sr_ch #0-eznobu-seq_rnd_ch_r #0-eznobu-seq_rnd_ch
+#X floatatom 202 243 5 0 100 1 sr_ch #0-eznobu-seq_rnd_ch_r #0-eznobu-seq_rnd_ch
 , f 5;
-#X obj 209 260 nbx 2 14 0 0 0 0 \$0-eznobu-seq_save_num \$0-eznobu-seq_save_num_r
+#X obj 257 263 nbx 2 14 0 0 0 0 \$0-eznobu-seq_save_num \$0-eznobu-seq_save_num_r
 seq_save 32 7 0 12 -262144 -1 -1 0 256;
-#X obj 300 260 bng 15 250 50 0 \$0-eznobu-seq_save_trig \$0-eznobu-seq_save_trig_r
+#X obj 347 264 bng 15 250 50 0 \$0-eznobu-seq_save_trig \$0-eznobu-seq_save_trig_r
 save 17 7 0 12 -262144 -1 -1;
-#X obj 356 262 nbx 2 14 0 0 0 0 \$0-eznobu-seq_rcl_num \$0-eznobu-seq_rcl_num_r
+#X obj 426 263 nbx 2 14 0 0 0 0 \$0-eznobu-seq_rcl_num \$0-eznobu-seq_rcl_num_r
 seq_rcl 32 7 0 12 -262144 -1 -1 0 256;
-#X obj 440 261 bng 15 250 50 0 \$0-eznobu-seq_rcl_trig \$0-eznobu-seq_rcl_trig_r
+#X obj 512 262 bng 15 250 50 0 \$0-eznobu-seq_rcl_trig \$0-eznobu-seq_rcl_trig_r
 rcl 17 7 0 12 -262144 -1 -1;
-#X obj 577 260 nbx 2 14 0 0 0 0 \$0-eznobu-loc_save_num \$0-eznobu-loc_save_num_r
+#X obj 639 259 nbx 2 14 0 0 0 0 \$0-eznobu-loc_save_num \$0-eznobu-loc_save_num_r
 loc_save 32 7 0 12 -262144 -1 -1 0 256;
-#X obj 668 259 bng 15 250 50 0 \$0-eznobu-loc_save_trig \$0-eznobu-loc_save_trig_r
+#X obj 730 258 bng 15 250 50 0 \$0-eznobu-loc_save_trig \$0-eznobu-loc_save_trig_r
 empty 17 7 0 12 -262144 -1 -1;
-#X obj 686 261 nbx 2 14 0 0 0 0 \$0-eznobu-loc_rcl_num \$0-eznobu-loc_rcl_num_r
+#X obj 748 260 nbx 2 14 0 0 0 0 \$0-eznobu-loc_rcl_num \$0-eznobu-loc_rcl_num_r
 loc_rcl 32 7 0 12 -262144 -1 -1 0 256;
-#X obj 768 259 bng 15 250 50 0 \$0-eznobu-loc_rcl_trig \$0-eznobu-loc_rcl_trig_r
+#X obj 830 258 bng 15 250 50 0 \$0-eznobu-loc_rcl_trig \$0-eznobu-loc_rcl_trig_r
 empty 17 7 0 12 -262144 -1 -1;
-#X obj 492 239 bng 15 250 50 0 \$0-eznobu-seq_pre_load \$0-eznobu-seq_pre_load_r
+#X obj 557 243 bng 15 250 50 0 \$0-eznobu-seq_pre_load \$0-eznobu-seq_pre_load_r
 pre_load 17 7 0 12 -262144 -1 -1;
-#X obj 804 257 bng 15 250 50 0 \$0-eznobu-loc_pre_clear \$0-eznobu-loc_pre_clear_r
+#X obj 849 259 bng 15 250 50 0 \$0-eznobu-loc_pre_clear \$0-eznobu-loc_pre_clear_r
 pre_clear 17 7 0 12 -262144 -1 -1;
-#X obj 804 239 bng 15 250 50 0 \$0-eznobu-loc_pre_load \$0-eznobu-loc_pre_load_r
+#X obj 849 241 bng 15 250 50 0 \$0-eznobu-loc_pre_load \$0-eznobu-loc_pre_load_r
 pre_load 17 7 0 12 -262144 -1 -1;
-#X obj 805 219 bng 15 250 50 0 \$0-eznobu-loc_pre_save \$0-eznobu-loc_pre_save_r
+#X obj 850 221 bng 15 250 50 0 \$0-eznobu-loc_pre_save \$0-eznobu-loc_pre_save_r
 pre_save 17 7 0 12 -262144 -1 -1;
-#X obj 852 203 tgl 15 0 \$0-eznobu-on \$0-eznobu-on_r on 17 7 0 12
+#X obj 897 205 tgl 15 0 \$0-eznobu-on \$0-eznobu-on_r on 17 7 0 12
 -262144 -1 -1 0 1;
 #X obj 310 464 r \$0-eznobu-on;
 #X obj 308 488 t f f;
 #X obj 91 525 spigot 0;
 #X obj 308 512 sel 0;
 #X msg 308 536 -2;
-#X obj 493 219 bng 15 250 50 0 \$0-eznobu-seq_pre_save \$0-eznobu-seq_pre_save_r
+#X obj 558 223 bng 15 250 50 0 \$0-eznobu-seq_pre_save \$0-eznobu-seq_pre_save_r
 pre_save 17 7 0 12 -262144 -1 -1;
-#X obj 492 258 bng 15 250 50 0 \$0-eznobu-seq_pre_clear \$0-eznobu-seq_pre_clear_r
+#X obj 557 262 bng 15 250 50 0 \$0-eznobu-seq_pre_clear \$0-eznobu-seq_pre_clear_r
 pre_clear 17 7 0 12 -262144 -1 -1;
+#X floatatom 367 219 5 0 0 1 c_lo #0-const_lo_r #0-const_lo, f 5;
+#X floatatom 367 240 5 0 0 1 c_hi #0-const_hi_r #0-const_hi, f 5;
+#X obj 445 233 hradio 15 1 0 2 \$0-const_sel \$0-const_sel_r const_sel
+0 -8 0 10 -262144 -1 -1 0;
+#X text 441 246 a/rng;
 #X connect 51 0 60 0;
 #X connect 52 0 79 0;
 #X connect 56 0 51 0;
@@ -1124,4 +1176,4 @@ pre_clear 17 7 0 12 -262144 -1 -1;
 #X connect 118 1 119 1;
 #X connect 120 0 121 0;
 #X connect 121 0 51 0;
-#X coords 0 -1 1 1 685 165 1 200 200;
+#X coords 0 -1 1 1 730 165 1 200 200;

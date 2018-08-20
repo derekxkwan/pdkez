@@ -28,7 +28,7 @@
 #X obj 1020 289 f \$4;
 #X text 830 191 args: freq \, q \, ramp \, bp/lop \, bypass;
 #X obj 131 218 hradio 15 1 0 2 \$0-filt \$0-filt_r filt -30 7 0 12
--262144 -1 -1 0;
+-262144 -1 -1 1;
 #X obj 715 149 route freq q ramp filt bypass;
 #X obj 604 226 t b b b b b, f 81;
 #X obj 1143 283 f \$5;
@@ -47,6 +47,7 @@
 #X obj 694 551 r \$0-filt;
 #X obj 619 676 pdkez_switcher;
 #X obj 758 636 r \$0-bypass;
+#X obj 1192 158 inlet;
 #X connect 0 0 11 0;
 #X connect 0 0 37 1;
 #X connect 2 0 20 0;
@@ -93,4 +94,5 @@
 #X connect 43 0 41 2;
 #X connect 44 0 42 0;
 #X connect 45 0 44 2;
+#X connect 46 0 31 0;
 #X coords 0 -1 1 1 200 55 1 100 200;
